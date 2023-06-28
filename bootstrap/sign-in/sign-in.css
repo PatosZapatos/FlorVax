@@ -23,3 +23,16 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.form-signin #togglePassword {
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+.fa-eye{
+  position: absolute;
+  top: 37%;
+  right: 4%;
+  cursor: pointer;
+  color: lightgray;
+}

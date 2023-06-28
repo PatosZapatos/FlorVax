@@ -7,6 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.112.5">
   <title>FlorVax - Iniciar Sesión</title>
@@ -125,7 +126,7 @@
 
 
   <main class="form-signin w-100 m-auto">
-    <form>
+    <form method="POST" action="../inicio/inicio.html">
       <center>
         <img class="mb-1" src="../brand/logo_florvax.png" alt="" width="92" height="92">
         <h1 class="h3 mb-3 fw-normal"> Ingresa tu cuenta </h1>
@@ -135,8 +136,9 @@
         <label for="floatingInput">Correo electronico</label>
       </div>
       <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+        <input type="password" class="form-control" id="passwordA" placeholder="Password" required>
         <label for="floatingPassword">Contraseña</label>
+        <i class="far fa-eye" id="togglePasswordA"></i>
       </div>
 
       <div class="form-check text-start my-3">
@@ -146,13 +148,28 @@
         </label>
       </div>
       <button class="btn btn-primary w-100 py-2 mb-2" type="submit">Entrar</button>
-      <p class="mt mb-3 text-body-secondary"> ¿No tienes cuenta? <a href="../register/register.html">Registrate </a> </p>
+      <p class="mt mb-3 text-body-secondary"> ¿No tienes cuenta? <a href="../register/register.html">Registrate </a>
+      </p>
       <center>
         <p class="mt-5 mb-3 text-body-secondary">&copy; 2023</p>
       </center>
     </form>
   </main>
   <script src="../js/bootstrap.bundle.js"></script>
+
+  <script>
+    const togglePasswordA = document.querySelector("#togglePasswordA");
+    const passwordA = document.querySelector("#passwordA");
+
+    togglePasswordA.addEventListener("click", function () {
+      // toggle the type attribute
+      const type = passwordA.getAttribute("type") === "password" ? "text" : "password";
+      passwordA.setAttribute("type", type);
+
+      // toggle the icon
+      this.classList.toggle("bi-eye");
+    });
+  </script>
 
 </body>
 
