@@ -1,0 +1,10 @@
+*{margin:0; padding:0;}
+body {
+    background:#fffffa; 
+}
+header{
+    width:100%;
+    overflow:hidden;
+    background:#252932;
+    margin-bottom:20px;
+}
