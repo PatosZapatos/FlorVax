@@ -10,10 +10,10 @@
 </head>
 <body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
   
-        <table width="1900" height="900">
+        <table width="2000" height="1000">
             
                 
-           <tr height="10%">
+           <tr height="1%">
             <td colspan="2" width="50%" >
                     <menu>
                         
@@ -182,30 +182,11 @@
                     </div>
                 <p class="precioL">60 Unidades $489</p>
             </div>
-            <div class="linea">
-
-            </div>
-            </div>
         </a>
-
            </td>
         </tr>
         
-        <footer>
-            
-            <tr height="10%">
-                
-                <td colspan="2" width="50%" >
-                    <div class="lele">
-                    <p><b> <center>FlorVax  <br>Empresa dedicada a la venta de semillas de vegetales y herramientas de agricultura.</center> 
-                    </b></p></div>
-                   
-            
-                </td>
-            
-            </tr>
-        </div>
-        </footer>
+       
     
         </table>
     
