@@ -7,3 +7,31 @@ a{
     overflow: hidden;
     color: black;
 }
+.lap{
+    position: absolute;
+    right: 904px;
+    top: 92%;
+}
+.lap1{
+    position: absolute;
+    right: 602px;
+    top: 92%;
+}
+input{
+    font-size: large;
+    width: 300px;
+}
+.info{
+   
+        border-style: solid;
+        border-color: rgb(255, 227, 194);
+        background-color: rgb(255, 227, 194);
+        border-radius: 12px;
+        padding: 5px;
+        width: 250px;
+        height: 350px;
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        text-align: center;
+      }
