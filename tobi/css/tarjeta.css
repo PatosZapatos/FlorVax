@@ -7,3 +7,17 @@ a{
     overflow: hidden;
     color: black;
 }
+.lap{
+    position: absolute;
+    right: 805px;
+    top: 92%;
+}
+.lap1{
+    position: absolute;
+    right: 500px;
+    top: 92%;
+}
+input{
+    font-size: large;
+    width: 300px;
+}
