@@ -1,0 +1,27 @@
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#imgequipo{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+}
+
+.a1{
+    display: flex;
+    align-self: flex-end;
+}
+
+.erere{
+    justify-self: flex-end;
+    align-self: flex-end;
+}
