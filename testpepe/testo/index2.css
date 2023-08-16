@@ -1,0 +1,8 @@
+.atribute {
+    background-color: yellow;
+}
+.cabezon{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
