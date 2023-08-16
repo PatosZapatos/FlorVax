@@ -127,21 +127,21 @@
 
 
   <main class="form-signin w-100 m-auto">
-    <form method="POST" action="../inicio/inicio.html">
+    <form method="POST" action="register-process.php">
       <center>
         <img class="mb-1" src="../brand/logo_florvax.png" alt="" width="92" height="92">
         <h1 class="h3 mb-3 fw-normal"> Crea tu Cuenta </h1>
       </center>
       <div class="form-floating">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email" required>
         <label for="floatingInput">Correo electronico</label>
       </div>
       <div class="form-floating">
-        <input type="name" class="form-control" id="floatingInput" placeholder="Usuario" required>
+        <input type="name" class="form-control" id="floatingInput" placeholder="Usuario" name="username" required>
         <label for="floatingInput">Nombre de Usuario</label>
       </div>
       <div class="form-floating">
-        <input type="password" class="form-control" id="password1" placeholder="Password" required>
+        <input type="password" class="form-control" id="password1" placeholder="Password" name="passw" required>
         <label for="floatingPassword">Contraseña</label>
         <i class="far fa-eye" id="togglePassword1"></i>
       </div>
