@@ -7,6 +7,22 @@ header{
     width: 12%;
 }
 
+#busqueda{
+    border-style: solid;
+    border-radius: 50px ;
+}
+
+#btnbusqueda{
+    border: 0;
+    margin: 0;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#btnbusqueda:hover{
+    background-color: gray;
+}
+
 nav{
     display: flex;
     align-items: center;
