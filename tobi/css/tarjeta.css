@@ -21,6 +21,9 @@ input{
     font-size: large;
     width: 300px;
 }
+select{
+    font-size: large;
+}
 .info{
    
         border-style: solid;
@@ -28,8 +31,8 @@ input{
         background-color: rgb(255, 227, 194);
         border-radius: 12px;
         padding: 5px;
-        width: 250px;
-        height: 350px;
+        width: 850px;
+        height: 550px;
         position: absolute;
         top: 20%;
         left: 30%;

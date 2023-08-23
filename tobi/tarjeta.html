@@ -33,9 +33,22 @@
                         Nombre <br> <input type="text" name="nombre"><br>
                         Apellido <br> <input type="text" name="apellido"><br>
                         Edad <br> <input type="number" name="edad"><br>
-                        Correo Electronico <br> <input type="text" name="correo"><br>
-                        Numero De Telefono <br> <input type="number" name="num"><br>
-                        Pais/Ciudad <div class="lap">Direccion/Dpto</div> <div class="lap1">Codigo Postal</div><br> <input type="text" name="pais"> <input type="text" name="dire">  <input type="text" name="cp"><br><br>
+                        Correo Electronico <br> <input type="email" name="correo"><br>
+                        <label for="tarjeta">Tipo De Tarjeta</label><br>
+                        <select id="tarjeta" name="tarjeta">
+                        <option value="visa">Visa</option>
+                        <option value="master">MasterCard</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="discover">Discover</option>
+                        </select><br>
+                        Numero De Tarjeta <br> <input type="number" name="tarjeta"><br>
+                        Codigo CVV <br> <input type="number" name="cvv"><br>
+                        Fecha De Vencimiento <br> <input type="datetime" name="fecha"><br>
+                        Ciudad <br> <input type="text" name="ciudad"><br>
+                        Direccion <br> <input type="number" name="dire"><br>
+                        Codigo Postal <br> <input type="number" name="cp"><br><br>
+                        
+                         
                         <input type="submit" value="Comprar"><br>
                     </form>
  
