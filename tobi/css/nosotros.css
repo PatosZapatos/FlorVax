@@ -1,5 +1,9 @@
+body{
+  margin: 0%;
+}
 menu{
     border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: #702ec1;
 }
 .container{
     display: flex;
@@ -15,7 +19,7 @@ menu{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #702ec1;
   }
   
   li {
@@ -40,7 +44,7 @@ menu{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #945adb;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -54,14 +58,14 @@ menu{
     text-align: left;
   }
   
-  .dropdown-content a:hover {background-color: #f1f1f1;}
+  .dropdown-content a:hover {background-color: #702ec1;}
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
   .puf {
     position: absolute;
-    top: 34px;
+    top: 22px;
     left: 650px;
     font-size: 18px; font-size: 30px
   }
@@ -108,13 +112,14 @@ menu{
   .linea{
     border-bottom: 1px solid rgb(0, 0, 0);
     position: relative;
-    top: 69%;
+    top: 65%;
 }
 .les{
   position: absolute;
    left: 10px;
 }
 .lele{
+  background-color: #702ec1;
 position: relative;
-top: 120%;
+top: 96%;
 }

@@ -3,6 +3,12 @@ header{
     height: 50%;
 }
 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 #logo{
     width: 12%;
 }
@@ -34,12 +40,6 @@ header{
 
 #btnbusqueda:hover{
     background-color: gray;
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .lista{
