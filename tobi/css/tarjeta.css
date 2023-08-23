@@ -1,6 +1,10 @@
+body{
+    margin: 0%;
+}
 menu{
     border-bottom: 1px solid rgb(0, 0, 0);
-    top: 40%;
+  
+    background-color: #702ec1;
 }
 a{
     text-decoration: none;
@@ -20,18 +24,29 @@ a{
 input{
     font-size: large;
     width: 300px;
+    
 }
-.info{
-   
-        border-style: solid;
-        border-color: rgb(255, 227, 194);
-        background-color: rgb(255, 227, 194);
+select{
+    font-size: large;
+}
+.info{ 
+         border-style: solid;
+         border-color: rgb(255, 83, 212);
+         background-color:  #BF0092;
         border-radius: 12px;
         padding: 5px;
-        width: 250px;
-        height: 350px;
+        width: 850px;
+        height: 600px;
         position: absolute;
-        top: 20%;
+        top: 37%;
         left: 30%;
         text-align: center;
       }
+.pipi{
+    position: relative;
+    top: 1%;
+    left: 22%;
+}
+.morado{
+    background-color: #702ec1;
+}

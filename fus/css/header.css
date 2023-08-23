@@ -1,19 +1,54 @@
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #81d7cd;
-    height: 50%;
-}
-
-#logo{
-    width: 12%;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.lista{
+#lista{
     list-style: none;
 }
 
+#logo{
+    position: relative;
+    width: 12%;
+}
+
+#containerbusqueda{
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+}
+
+#busqueda{
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px ;
+}
+
+#busqueda:focus {
+    outline-width: 0;
+}
+
+#btnbusqueda{
+    margin: 0;
+    border-radius: 50px;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#btnbusqueda:hover{
+    background-color: gray;
+}
