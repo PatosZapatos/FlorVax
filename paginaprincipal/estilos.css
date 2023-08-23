@@ -1,64 +1,68 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   }
-  
-  body {
-    background: #ffffff;
-    font-family: 'calibri';
-  }
-  
-  header {
-    background: #50dba6;
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    clear: both;
-    content:'';
-    display: table;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
   }
-  
-  .menu {
-    width: 900px;
-    margin: 0 auto;
+  header.abajo{
+    background: #fff;
+    padding: 15px 20px;
   }
-  
-  img {
-    width: 60px;
-    height: 50px;
-    float: left;
-    padding: 0px;
-  
-  }
-  
-  nav {
-    float: right;
-  }
-  
-  nav ul li {
-    list-style: none;
-    margin-left: 75px;
-    padding: 12px 0;
-    float: left;
+  header .logo{
     position: relative;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #444;
+    color: #fff;
     font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
   }
-  
-  nav ul li a::before {
-    display: block;
-    content: '';
-    width: 0%;
-    background: #444;
-    height: 5px;
-    top:0;
-    position: absolute;
-    transition: width 0.2s;
+  nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  
-  nav ul li a:hover::before {
+
+  header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header ul li{
+    list-style: none;
+  }
+
+  header ul li a{
+    position: relative;
+    font-family: helvetica;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+  }
+
+  .zona1{
+    position: relative;
     width: 100%;
+    height: 100vh;
+    background: href();
+    background-size: cover;
+    background-position: center center;
+  }
+  header.abajo .logo,
+  header.abajo ul li a{
+    color: #000;
   }
