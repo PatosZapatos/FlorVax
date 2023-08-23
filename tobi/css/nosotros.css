@@ -1,3 +1,6 @@
+body{
+  margin: 0%;
+}
 menu{
     border-bottom: 1px solid rgb(0, 0, 0);
 }
@@ -61,7 +64,7 @@ menu{
   }
   .puf {
     position: absolute;
-    top: 34px;
+    top: 27px;
     left: 650px;
     font-size: 18px; font-size: 30px
   }
@@ -108,7 +111,7 @@ menu{
   .linea{
     border-bottom: 1px solid rgb(0, 0, 0);
     position: relative;
-    top: 69%;
+    top: 65%;
 }
 .les{
   position: absolute;
