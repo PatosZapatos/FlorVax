@@ -7,6 +7,35 @@ header{
     width: 12%;
 }
 
+#containerbusqueda{
+    background-color: white;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+}
+
+#busqueda{
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px ;
+}
+
+#busqueda:focus {
+    outline-width: 0;
+}
+
+#btnbusqueda{
+    border: 0;
+    margin: 0;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#btnbusqueda:hover{
+    background-color: gray;
+}
+
 nav{
     display: flex;
     align-items: center;
