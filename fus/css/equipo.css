@@ -1,19 +1,33 @@
-#titulo{
+#divtitulo{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+#titulo{
+    font-size: 450%;
+}
+
 #contenido{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #imgequipo{
     border-radius: 50%;
     border-style: solid;
     border-color: white;
+}
+
+#nomequipo{
+    font-size: 250%;
+    text-align: center;
+}
+
+#descequipo{
+    font-size: large;
+    text-align:center;
 }
 
 .a1{
