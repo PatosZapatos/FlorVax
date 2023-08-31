@@ -13,25 +13,28 @@
     transition: 0.7s;
     padding: 30px 20px;
     z-index: 10;
+    background-color: rgb(92, 238, 128);
   }
   h1 {
     position: relative;
     font-family: helvetica;
     margin: 0 15px;
     text-decoration: none;
-    color: #555252;
+    color: #b9afaf;
     letter-spacing: 2px;
     font-weight: 600;
     transition: 0.7s;
+    background-color: rgb(92, 238, 128);
   }
   header.abajo{
-    background: #dfdada;
+    background: rgb(92, 238, 128);
     padding: 15px 20px;
   }
   nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(92, 238, 128);
   }
 
   header ul{
@@ -39,9 +42,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(92, 238, 128);
   }
   header ul li{
     list-style: none;
+    background-color: rgb(92, 238, 128);
   }
 
   header ul li a{
@@ -49,10 +54,11 @@
     font-family: helvetica;
     margin: 0 15px;
     text-decoration: none;
-    color: #dfdada;
+    color: #b9afaf;
     letter-spacing: 2px;
     font-weight: 600;
     transition: 0.7s;
+    background-color: rgb(92, 238, 128);
   }
 
   .zona1{
@@ -65,13 +71,14 @@
   }
   header.abajo h1,
   header.abajo ul li a{
-    color: #000;
-  }
-  .img {
-    display: flex;
-    justify-content: right;
+    color: #000000;
   }
 
-  .IMG1 {
-    width: 350px;
+  .img1 {
+    width: 800px;
+    height: 700px;
+    padding: 150px;
+  }
+  .text1 {
+    display: flex;
   }
