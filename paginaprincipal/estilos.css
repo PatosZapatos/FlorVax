@@ -69,16 +69,15 @@
     background-size: cover;
     background-position: center center;
   }
-  header.abajo h1,
-  header.abajo ul li a{
+  header.abajo h1,header.abajo ul li a{
     color: #000000;
   }
 
   .img1 {
-    width: 800px;
-    height: 700px;
-    padding: 150px;
+    width: 600px;
+    height: 500px;
+    float: right;
   }
-  .text1 {
-    display: flex;
+ .text1 {
+    align-items: end  ;
   }
