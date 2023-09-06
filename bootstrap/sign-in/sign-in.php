@@ -21,11 +21,11 @@
 </head>
 
 <body class="d-flex align-items-center"
-  style="background: #00bbaa; background-image: url('../img/Campo Fondo.png'); background-size: cover;">
+  style="background: #00cca4; background-image: url('../img/Campo Fondo.png'); background-size: cover;">
   <main class="form-signin w-100 m-auto" style="background: #efece2; border-radius: 15% 5%;">
     <form method="POST" action="sign-in-process.php">
       <center>
-        <a href="../../paginaprincipal/pag1.php"><img class="mb-1" src="../brand/logo_florvax.png" alt="" width="92"
+        <a href="../../paginaprincipal/pag1.php"><img class="mb-1 logoFlorvax" src="../brand/logo_florvax.png" alt="" width="92"
             height="92"></a>
         <h1 class="h3 mb-3 fw-normal"> Ingresa tu cuenta </h1>
       </center>
