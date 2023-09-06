@@ -20,7 +20,7 @@
     font-family: helvetica;
     margin: 0 15px;
     text-decoration: none;
-    color: #b9afaf;
+    color: #1d1b1b;
     letter-spacing: 2px;
     font-weight: 600;
     transition: 0.7s;
@@ -54,7 +54,7 @@
     font-family: helvetica;
     margin: 0 15px;
     text-decoration: none;
-    color: #b9afaf;
+    color: #1d1b1b;
     letter-spacing: 2px;
     font-weight: 600;
     transition: 0.7s;
@@ -70,10 +70,11 @@
     background-position: center center;
   }
   header.abajo h1,header.abajo ul li a{
-    color: #000000;
+    color: #5f5f5f;
   }
 
   .img1 {
+    display: flex;
     width: 600px;
     height: 500px;
     float: right;
