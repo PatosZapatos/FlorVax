@@ -16,7 +16,7 @@
 				<li><a href="#">acercadenosheision</a></li>
 				<li><a href="#">doneishion</a></li>
 				<li><a href="../bootstrap/register/register.php">Sign Up</a></li>
-				<li><a href="../bootstrap/sign-in/sign-in.html">Log In</a></li>
+				<li><a href="../bootstrap/sign-in/sign-in.php">Log In</a></li>
 			</ul>
 		</nav>
     </header>
