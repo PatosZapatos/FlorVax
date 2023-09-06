@@ -26,6 +26,11 @@
     width: 20%;
     align-self:flex-end;
 }***/
-.container{
-    -ms-flex-align: center;
+.altaInput{
+    flex: auto;
+    align-content: center;
+    -ms-flex-align: end;
 }
+body {
+    height: 100%;
+  }
