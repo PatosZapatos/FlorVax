@@ -5,38 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="asd.css">
 </head>
 
 <body>
     <div class="container">
         <h3 class="altaTitulo"></h3>
-        <div class="container" style="">
+        <div class="container">
             
         </div>
         <form class="altaInput" action="../code/altas.php" method="POST" enctype="multipart/form-data">
 
             <div class="grupoInputs">
-                <label for="nombre"></label>
-                <input type="text" name="nombre"><br>
-            </div>
-
-            <div class="grupoInputs">
-                <label for="apellido">Apellido:</label>
+                <label for="enviar">Mensajería</label>
                 <input type="text" name="apellido"><br>
             </div>
 
-            <div class="grupoInputs">
-                <label for="edad">Edad:</label>
-                <input type="number" name="edad"><br>
-            </div>
-
-            <div class="grupoInputs">
-                <label for="foto">Archivo</label>
-                <input type="file" name="foto"><br>
-            </div>
-
             <div class="btn-submit">
-                <input type="submit" value="Grabar"><br>
+                <input type="submit" value="Enviar!"><br>
             </div>
         </form>
     </div>
