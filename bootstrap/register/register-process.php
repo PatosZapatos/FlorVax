@@ -29,7 +29,7 @@ else {
     
     $resultado = mysqli_query($Conexion,$cadena);
     
-    echo "<script>location.href='../../paginaprincipal/pag1.html'</script>";
+    echo "<script>location.href='../../paginaprincipal/pag1.php'</script>";
 }
 
 ?>
