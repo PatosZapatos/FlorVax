@@ -11,10 +11,10 @@
 		<h1>Florvax</h1>
 		<nav>
 			<ul>
-                <li><a href="#">Pricing</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Pages</a></li>
-				<li><a href="#">Help</a></li>
+                <li><a href="#">---------</a></li>
+				<li><a href="#">tienda</a></li>
+				<li><a href="#">donaciones</a></li>
+				<li><a href="#">acaerca de nosotros</a></li>
 				<li><a href="../bootstrap/register/register.php">Sign Up</a></li>
 				<li><a href="../bootstrap/sign-in/sign-in.html">Log In</a></li>
 			</ul>
