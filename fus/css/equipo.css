@@ -30,12 +30,3 @@
     text-align:center;
 }
 
-.a1{
-    display: flex;
-    align-self: flex-end;
-}
-
-.erere{
-    justify-self: flex-end;
-    align-self: flex-end;
-}

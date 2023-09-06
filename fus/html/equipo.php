@@ -5,36 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nosotros - FlorVax</title>
-    <script src="https://kit.fontawesome.com/712575d4a5.js" crossorigin="anonymous"></script>
     <link rel="icon" href="../img/favicon.png">
     <link rel="stylesheet" href="../css/header.css">
-    <link href="../../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/equipo.css">
 </head>
 
 <body>
+
     <header>
-
-        <ul id="lista">
-            <img src="../img/logo.png" id="logo">
-            <a href="donacion.html">Donar</a>
-            <a href="#">Categorías</a>
-            <a href="#">Carrito</a>
-            </ul>
-
-        <nav>
-
-            <div id="containerbusqueda">
-            <form action="#">
-                <input type="text" id="busqueda" placeholder="Buscar...">
-                <button id="btnbusqueda" type="submit">🔎</button>
-                </input>
-            </form>
+        <div class="nav">
+                <div class="logo"><img src="../img/favicon.png" alt=""><a href="#">FlorVax</a></div>
+                <ul class="links">
+                    <li><a href="#">Donar</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Carrito</a></li>
+                </ul>
+            <div class="containerbusqueda">
+                <input type="text" placeholder="Buscar...">
+                <button onclick="">🔎</button>
             </div>
-
-                <a href="#"><img src="../img/cuenta.png"></a>
-            
-        </nav>
+            <a href="#"><img src="../img/cuenta.png" alt=""></a>
+        </div>
     </header>
     <div id="divtitulo">
         <h1 id="titulo">Conoce al Equipo</h1>
