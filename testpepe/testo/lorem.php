@@ -9,15 +9,12 @@
 </head>
 
 <body>
-    <div class="container">
-        <h3 class="altaTitulo"></h3>
-        <div class="container">
-            
-        </div>
-        <form class="altaInput" action="../code/altas.php" method="POST" enctype="multipart/form-data">
+    <div class="container" >
+        <h3 class="altaTitulo">Mensajería</h3>
+        <!-- <form class="altaInput" action="../code/altas.php" method="POST" enctype="multipart/form-data"> -->
+        <form class="altaInput">
 
             <div class="grupoInputs">
-                <label for="enviar">Mensajería</label>
                 <input type="text" name="apellido"><br>
             </div>
 
