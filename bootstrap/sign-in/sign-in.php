@@ -10,9 +10,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.112.5">
-  <title>FlorVax - Iniciar Sesión</title>
-  
-  <link rel="icon" type="image/x-icon" href="/brand/logo_florvax.png">
+  <title>Iniciar Sesión</title>
+
+  <link rel="icon" type="image/x-icon" href="../brand/logo_florvax.png">
 
   <link href="../css/bootstrap.css" rel="stylesheet">
 
@@ -20,16 +20,19 @@
   <link href="sign-in.css" rel="stylesheet">
 </head>
 
-<body class="d-flex align-items-center" style= "background: #cc0000;">
+<body class="d-flex align-items-center"
+  style="background: #00bbaa; background-image: url('../img/Campo Fondo.png'); background-size: cover;">
   <main class="form-signin w-100 m-auto" style="background: #efece2; border-radius: 15% 5%;">
     <form method="POST" action="sign-in-process.php">
       <center>
-        <img class="mb-1" src="../brand/logo_florvax.png" alt="" width="92" height="92">
+        <a href="../../paginaprincipal/pag1.php"><img class="mb-1" src="../brand/logo_florvax.png" alt="" width="92"
+            height="92"></a>
         <h1 class="h3 mb-3 fw-normal"> Ingresa tu cuenta </h1>
       </center>
 
       <div class="form-floating">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email" required>
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email"
+          required>
         <label for="floatingInput">Correo electronico</label>
       </div>
 
@@ -51,22 +54,12 @@
       <p class="mt mb-3 text-body-secondary"> ¿No tienes cuenta? <a href="../register/register.php">Registrate </a>
       </p>
       <center>
-        <p class="mt-5 mb-3 text-body-secondary">&copy; 2023</p>
+        <p class="mt-4 mb-3 text-body-secondary">&copy; 2023</p>
       </center>
     </form>
   </main>
 
   <script src="../js/bootstrap.bundle.js"></script>
-  <script>
-    document.getElementById('login_alerts').innerHTML = `
-            <div class='row g-5 justify-content-center'>
-                <div class='alert alert-success alert-dismissible fade show col-md-8' role='alert'>
-                    Login Valido
-                    <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'>
-                    </button>
-                </div>
-            </div>`;
-  </script>
   <script>
     const togglePasswordA = document.querySelector("#togglePasswordA");
     const passwordA = document.querySelector("#passwordA");
