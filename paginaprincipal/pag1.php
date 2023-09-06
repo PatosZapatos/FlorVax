@@ -15,8 +15,8 @@
 				<li><a href="#">Blog</a></li>
 				<li><a href="#">Pages</a></li>
 				<li><a href="#">Help</a></li>
-				<li><a href="#">Sign Up</a></li>
-				<li><a href="#">Log In</a></li>
+				<li><a href="../bootstrap/register/register.php">Sign Up</a></li>
+				<li><a href="../bootstrap/sign-in/sign-in.html">Log In</a></li>
 			</ul>
 		</nav>
     </header>
@@ -28,11 +28,13 @@
 			header.classList.toggle("abajo",window.scrollY>0);
 		})
 	</script>
-        <h2 class="img1">
-            <img src="../paginaprincipal/imagenes/images.jpg" class="IMG1" alt="50" height="50">
-        </h2>
-        <h2>
-            hfiuqhfuiwhqoiwfjoqiwfjoqwifjoqwifjaisjclkasdlkjfhljafhl
-        </h2>
+        <div class="uno">
+
+			<div class="text1">
+				<h2> powerful tagline for your product </h2>
+				<p>supporting statement for your produc is tagline. this text should communicate your unique selling propositin to the reader</p>
+			</div>
+            <img class="img1" src="imagenes/logo_florvax.png" alt="" >
+		</div>
 </body>
 </html>
