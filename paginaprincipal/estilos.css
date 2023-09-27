@@ -82,3 +82,6 @@
  .text1 {
     align-items: end  ;
   }
+  .uno {
+    display: flex;
+  }

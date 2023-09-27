@@ -31,10 +31,11 @@
         <div class="uno">
 
 			<div class="text1">
-				<h2> powerful tagline for your product </h2>
+				<p> powerful tagline for your product </p>
 				<p>supporting statement for your produc is tagline. this text should communicate your unique selling propositin to the reader</p>
 			</div>
             <img class="img1" src="imagenes/logo_florvax.png" alt="" >
 		</div>
+		<p> </p> 
 </body>
 </html>
