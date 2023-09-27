@@ -22,8 +22,8 @@
                             <li class="dropdown">
                                 <a>Categoria</a>
                                 <div class="dropdown-content">
-                                    <a href="../tobi/semillas.html">Semillas</a>
-                                    <a href="../tobi/herrramientas.html">Herramientas</a>
+                                    <a href="../tobi/semillas.php">Semillas</a>
+                                    <a href="../tobi/herrramientas.php">Herramientas</a>
                                 </div>
                                 </li>
                             <li><a href="">Carrito</a></li>

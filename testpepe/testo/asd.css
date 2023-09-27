@@ -1,4 +1,4 @@
-/*.container{
+.container{
     margin: 50px;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
 .btn-submit{
     width: 20%;
     align-self:flex-end;
-}***/
+}
 .altaInput{
     flex: auto;
     align-content: center;
