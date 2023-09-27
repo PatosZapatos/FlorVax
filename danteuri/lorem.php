@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Florvax</title>
-    <link rel="stylesheet" href="../../paginaprincipal/estilos.css">
+    <link rel="stylesheet" href="../paginaprincipal/estilos.css">
     
 </head>
 <body>
@@ -15,8 +15,8 @@
                 <li><a href="#">---------</a></li>
 				<li><a href="#">tienda</a></li>
 				<li><a href="#">donaciones</a></li>
-				<li><a href="../tobi/nosotros.html">acerca de nosotros</a></li>
-				<li><a href="../bootstrap/sign-in/sign-in.php">Sign Up</a></li>
+				<li><a href="../tobi/forms/nosotros.php">acerca de nosotros</a></li>
+				<li><a href="../bootstrap/register/register.php">Sign Up</a></li>
 				<li><a href="../bootstrap/sign-in/sign-in.php">Log In</a></li>
 			</ul>
 		</nav>
