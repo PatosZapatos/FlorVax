@@ -36,7 +36,6 @@
 			</div>
             <img class="img1" src="imagenes/logo_florvax.png" alt="" >
 		</div>
-
-		<p> 
+		<p> </p> 
 </body>
 </html>
