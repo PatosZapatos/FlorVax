@@ -23,7 +23,7 @@ a{
 }
 input{
     font-size: large;
-    width: 300px;
+    width: 600px;
     
 }
 select{
@@ -31,22 +31,27 @@ select{
 }
 .info{ 
          border-style: solid;
-         border-color: rgb(255, 83, 212);
-         background-color:  #BF0092;
+         border-color: rgb(255, 188, 238);
+    background-color:  #ffe8a2;
         border-radius: 12px;
         padding: 5px;
-        width: 850px;
+        width: 620px;
         height: 600px;
         position: absolute;
         top: 37%;
-        left: 30%;
+        left: 55%;
         text-align: center;
       }
 .pipi{
     position: relative;
     top: 1%;
-    left: 22%;
+    left: 40%;
 }
 .morado{
     background-color: #702ec1;
+}
+
+.logo{
+    background-image: url(../img/semillas/logo_florvax.png);
+    color: #FFFFFF;
 }
