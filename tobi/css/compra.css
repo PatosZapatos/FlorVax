@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    background-color: antiquewhite;
 }
 .header{
     display: flex;
@@ -75,3 +76,5 @@ body{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  
+ 

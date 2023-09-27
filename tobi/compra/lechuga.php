@@ -27,9 +27,13 @@
                             <li><a href="">Carrito</a></li>
                             <li><a href="">Usuario</a></li>
         </div>
-        
-            
         </div>
     </head>
+    <main>
+    <center><h4>Compra</h2></center>
+    <div class="">
+    <img src="../img/semillas/lechuga.png" alt="" width="450px" height="400px">
+    </div>
+</main>
 </body>
 </html>
