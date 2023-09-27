@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlorVax</title>
     <link rel="icon" href="../tobi/img/semillas/logo_florvax.png">
-    <link rel="stylesheet" href="../tobi/css/nosotros.css">
+    <link rel="stylesheet" href="../css/nosotros.css">
     
 </head>
 <body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
@@ -22,8 +22,8 @@
                             <li class="dropdown">
                                 <a>Categoria</a>
                                 <div class="dropdown-content">
-                                    <a href="../tobi/semillas.php">Semillas</a>
-                                    <a href="../tobi/herrramientas.php">Herramientas</a>
+                                    <a href="../forms/semillas.php">Semillas</a>
+                                    <a href="../forms/herrramientas.php">Herramientas</a>
                                 </div>
                                 </li>
                             <li><a href="">Carrito</a></li>
