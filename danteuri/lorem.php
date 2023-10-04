@@ -11,11 +11,11 @@
 <header>
 		<h1>Florvax</h1>
 		<nav class="botones">
-				<a href="#">tienda</a>
-				<a href="#">donaciones</a>
-				<a href="../tobi/nosotros.html">acerca de nosotros</a>
-				<a href="../bootstrap/register/register.php">Sign Up</a>
-				<a href="../bootstrap/sign-in/sign-in.php">Log In</a>
+				<a href="#">Tienda</a>
+				<a href="#">Donaciones</a>
+				<a href="../tobi/nosotros.html">Acerca de nosotros</a>
+				<a href="../bootstrap/register/register.php">Registrate</a>
+				<a href="../bootstrap/sign-in/sign-in.php">Inicia Sesión</a>
 		</nav>
     </header>
 	<section class="zona1"></section>
@@ -44,5 +44,7 @@
 </body>
 </html>
 <?php
-
+ function elpepe(){
+    
+ }
 ?>
