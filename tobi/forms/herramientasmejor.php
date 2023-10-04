@@ -70,7 +70,7 @@
             </div>
         </a>
 
-        <a href="#" class="a">
+        <a href="../herramientas/guantes.php" class="a">
             <div class="zanahoria">
             <p>Guantes</p>
                 <div class="imgg">
@@ -79,7 +79,7 @@
                 <p class="precioL">$6.500</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../herramientas/invernadero.php" class="a">
             <div class="brocoli">
             <p>Mini Invernadero</p>
                 <div class="imgg">
