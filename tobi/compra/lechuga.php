@@ -31,9 +31,15 @@
     </head>
     <main>
     <center><h4>Compra</h2></center>
-    <div class="">
-    <img src="../img/semillas/lechuga.png" alt="" width="450px" height="400px">
+    <h2 class="titulo">Semillas de Lechuga</h3>
+    <h5 class="info">60 semillas de lechuga, traidas de Brasil</h4>
+    <h1 class="precio">$589</h1>
+    <h3 class="cuotas">Mismo precio en 3 cuotas de $196,33</h2>
+    
+    <div class="img">
+    <img src="../img/semillas/lechuga.png" alt="" width="600px" height="500px">
     </div>
+    
 </main>
 </body>
 </html>

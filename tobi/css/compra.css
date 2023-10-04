@@ -76,5 +76,29 @@ body{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+.img{
+  position: absolute;
+  left: 3%;
+}
+.titulo{
+  position: absolute;
+  left: 65%;
+}
+.info{
+position: absolute;
+top: 30%;
+left: 48%
+}
+.precio{
+  position: absolute;
+top: 35%;
+left: 48%
+}
+.cuotas{
+  position: absolute;
+  color: #945adb;
+  top: 42%;
+  left: 48%
+}
   
  

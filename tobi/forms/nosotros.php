@@ -63,7 +63,7 @@
             </h5>
         </div>
         <div class="img">
-            <img src="../tobi/img/semillas/logo_florvax.png" alt="" width="650px" height="650px">
+            <img src="../img/semillas/logo_florvax.png" alt="" width="650px" height="650px">
         </div>
             <div class="linea">
 
