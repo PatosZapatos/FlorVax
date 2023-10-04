@@ -145,5 +145,8 @@
             </div>
     <center><h4>Herramientas</h4></center>
     </main>
+    <div class="footer">
+    <center>FlorVax <br>Empresa dedicada a la venta de semillas y herramientas de agricultura</center>
+    </div>
 </body>
 </html>

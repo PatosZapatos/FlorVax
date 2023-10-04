@@ -42,7 +42,7 @@
             </div>
         </a>
 
-        <a href="#" class="a">
+        <a href="../compra/tomate.php" class="a">
             <div class="tomate">
                 <p>Semillas de Tomate</p>
                 <div class="imgg">
@@ -52,7 +52,7 @@
             </div>
         </a>
 
-        <a href="#" class="a">
+        <a href="../compra/morron.php" class="a">
             <div class="morron">
                 <p>Semillas de Morron</p>
                 <div class="imgg">
@@ -62,7 +62,7 @@
             </div>
         </a>
 
-        <a href="#" class="a">
+        <a href="../compra/cebolla.php" class="a">
             <div class="cebolla">
                 <p>Semillas de Cebolla</p>
                 <div class="imgg">
