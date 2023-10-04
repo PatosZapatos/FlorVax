@@ -47,7 +47,7 @@
                 Semillas
             </div>
             
-            <a href="#" class="a">
+            <a href="../compra/lechuga.php" class="a">
             <div class="belen">
                 <p>Semillas de Lechuga</p>
                 <div class="imgg">

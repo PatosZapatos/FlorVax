@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlorVax</title>
-    <link rel="stylesheet" href="../css/compra.css">
+    <link rel="stylesheet" href="../tobi/css/semillasmejor.css">
 </head>
 <body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
-    <head>
+<head>
         <div class="header">
         <h2 class="flor">FlorVax</h2>
         <div class="input">
@@ -30,16 +30,17 @@
         </div>
     </head>
     <main>
-    <center><h4>Compra</h4></center>
-    <h2 class="titulo">Semillas de Lechuga</h2>
-    <h5 class="info">-60 semillas de lechuga<br>-Traidas de Brasil<br>-Si no sabe como germinar. Adjunto tutorial: <a href="https://www.youtube.com/watch?v=mhXE5SL-nZQ" style="text-decoration:none; color:#bf0092" target="_blank">Clic Aqui</a></h5>
-    <h1 class="precio">$589</h1>
-    <h3 class="cuotas">Mismo precio en 3 cuotas de $196,33</h3>
-    <a href="../forms/tarjeta.php"><button class="boton">Comprar</button></a>
-    <div class="img">
-    <img src="../img/semillas/lechuga.png" alt="" width="600px" height="500px">
-    </div>
+    <center><h4>Semillas</h4></center>
     
-</main>
+    <a href="../compra/lechuga.php" class="a">
+            <div class="belen">
+                <p>Semillas de Lechuga</p>
+                <div class="imgg">
+                <img src="../tobi/img/semillas/lechuga.png" alt="" width="250px">
+                </div>
+                <p class="precioL">60 Unidades $589</p>
+            </div>
+        </a>
+    </main>
 </body>
 </html>
