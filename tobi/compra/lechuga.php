@@ -20,8 +20,8 @@
                             <li class="dropdown">
                                 <a>Categoria</a>
                                 <div class="dropdown-content">
-                                    <a href="../forms/semillas.php">Semillas</a>
-                                    <a href="../forms/herrramientas.php">Herramientas</a>
+                                    <a href="../forms/semillasmejor.php">Semillas</a>
+                                    <a href="../forms/herramientasmejor.php">Herramientas</a>
                                 </div>
                                 </li>
                             <li><a href="">Carrito</a></li>

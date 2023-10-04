@@ -91,6 +91,7 @@ body{
     position: absolute;
     top: 20%;
     text-align: center;
+    left: 5%;
   }
   p.precioL{
     padding: 5px;
@@ -105,3 +106,157 @@ body{
     position: absolute; 
     top: 30%;
   }
+
+  .tomate {
+    border-style: solid;
+    border-color: rgb(255, 188, 238);
+    background-color:  #ffe8a2;
+    border-radius: 12px;
+    padding: 5px;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    text-align: center;
+  }
+
+  .morron {
+    border-style: solid;
+    border-color: rgb(255, 188, 238);
+    background-color:  #ffe8a2;
+    border-radius: 12px;
+    padding: 5px;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 20%;
+    left: 51%;
+    text-align: center;
+  }
+
+  .cebolla {
+    border-style: solid;
+    border-color: rgb(255, 188, 238);
+    background-color:  #ffe8a2;
+    border-radius: 12px;
+    padding: 5px;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 20%;
+    left: 74%;
+    text-align: center;
+  }
+  .zanahoria{
+    border-style: solid;
+    border-color: rgb(255, 188, 238);
+    background-color:  #ffe8a2;
+    border-radius: 12px;
+    padding: 5px;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 77%;
+    text-align: center;
+    left: 5%;
+  }
+  .brocoli{
+    border-style: solid;
+    border-color: rgb(255, 188, 238);
+    background-color:  #ffe8a2;
+    border-radius: 12px;
+    padding: 5px;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 77%;
+    left: 28%;
+    text-align: center;
+  }
+  .papa{
+    border-style: solid;
+    border-color: rgb(255, 188, 238);
+    background-color:  #ffe8a2;
+    border-radius: 12px;
+    padding: 5px;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 77%;
+    left: 51%;
+    text-align: center;
+  }
+  .remolacha{
+    border-style: solid;
+    border-color: rgb(255, 188, 238);
+    background-color:  #ffe8a2;
+    border-radius: 12px;
+    padding: 5px;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 77%;
+    left: 74%;
+    text-align: center;
+  }
+  .zapallo{
+    border-style: solid;
+    border-color: rgb(255, 188, 238);
+    background-color:  #ffe8a2;
+    border-radius: 12px;
+    padding: 5px;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 134%;
+    text-align: center;
+    left: 5%;
+  }
+  .berenjena{
+    border-style: solid;
+    border-color: rgb(255, 188, 238);
+    background-color:  #ffe8a2;
+    border-radius: 12px;
+    padding: 5px;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 134%;
+    left: 28%;
+    text-align: center;
+  }
+  .puerro{
+    border-style: solid;
+    border-color: rgb(255, 188, 238);
+    background-color:  #ffe8a2;
+    border-radius: 12px;
+    padding: 5px;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 134%;
+    left: 51%;
+    text-align: center;
+  }
+  .acelga{
+    border-style: solid;
+    border-color: rgb(255, 188, 238);
+    background-color:  #ffe8a2;
+    border-radius: 12px;
+    padding: 5px;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    top: 134%;
+    left: 74%;
+    text-align: center;
+  }
+
+  .footer{
+    position: absolute;
+    left: 28%;
+    top: 190%;
+  }
+
+  

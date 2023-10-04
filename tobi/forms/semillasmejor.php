@@ -4,50 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlorVax</title>
-    <link rel="icon" href="../tobi/img/semillas/logo_florvax.png">
-    <link rel="stylesheet" href="../css/semillas.css">
-    
+    <link rel="stylesheet" href="../css/semillasmejor.css">
 </head>
 <body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
-  
-        <table width="1900" height="900">
-            
-                
-           <tr height="10%">
-            <td colspan="2" width="50%" >
-                    <menu>
-                        
-                        <div class="container">   
+<head>
+        <div class="header">
+        <h2 class="flor">FlorVax</h2>
+        <div class="input">
+        <input id="buscar" placeholder="Buscar" class="buscar" style="width: 500px; height: 30px;">
+        <button id="btn" class="btn" style="width: 100px; height: 40px;">Buscar🔎</button>
+        </div>
+        
+        <div class="container">   
                         <ul>
                             <li class="dropdown">
                                 <a>Categoria</a>
                                 <div class="dropdown-content">
-                                    <a href="../forms/semillas.php">Semillas</a>
-                                    <a href="../forms/herrramientas.php">Herramientas</a>
+                                    <a href="../forms/semillasmejor.php">Semillas</a>
+                                    <a href="../forms/herramientasmejor.php">Herramientas</a>
                                 </div>
                                 </li>
                             <li><a href="">Carrito</a></li>
                             <li><a href="">Usuario</a></li>
-                        <div class="puf">
-                                <input id="buscar" placeholder="Buscar" class="buscar" style="width: 500px; height: 31px;">
-                                <button id="btn" class="btn" style="height: 37px;">Buscar🔎</button>
-                </div>
-                            <p style="position: absolute;
-                                top: 1px;
-                                left: 16px;
-                                font-size: 18px; font-size: 30px; color: rgb(235, 228, 228);">FlorVax</p>
-                          </ul>
-                    </div>
-                </menu>
-            </td>
-                </tr>
-        <div class="info">
-           <tr height="80%"><td colspan="2" width="50%">
-            <div class="arriba">
-                Semillas
-            </div>
-            
-            <a href="../compra/lechuga.php" class="a">
+        </div>
+        </div>
+    </head>
+    <main>
+    <center><h4>Semillas</h4></center>
+    
+    <a href="../compra/lechuga.php" class="a">
             <div class="belen">
                 <p>Semillas de Lechuga</p>
                 <div class="imgg">
@@ -56,7 +41,7 @@
                 <p class="precioL">60 Unidades $589</p>
             </div>
         </a>
-    
+
         <a href="#" class="a">
             <div class="tomate">
                 <p>Semillas de Tomate</p>
@@ -66,6 +51,7 @@
                 <p class="precioL">60 Unidades $800</p>
             </div>
         </a>
+
         <a href="#" class="a">
             <div class="morron">
                 <p>Semillas de Morron</p>
@@ -75,6 +61,7 @@
                 <p class="precioL">60 Unidades $750</p>
             </div>
         </a>
+
         <a href="#" class="a">
             <div class="cebolla">
                 <p>Semillas de Cebolla</p>
@@ -84,15 +71,7 @@
                 <p class="precioL">60 Unidades $940</p>
             </div>
         </a>
-        <a href="#" class="a">
-            <div class="champiñon">
-                <p>Semillas de Champiñon</p>
-                <div class="imgg">
-                    <img src="../img/semillas/champiñon.png" alt="" width="250px" height="166px">
-                    </div>
-                <p class="precioL">60 Unidades $300</p>
-            </div>
-        </a>
+
         <a href="#" class="a">
             <div class="zanahoria">
                 <p>Semillas de Zanahoria</p>
@@ -127,15 +106,6 @@
                     <img src="../img/semillas/remolacha.png" alt="" width="250px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $620</p>
-            </div>
-        </a>
-        <a href="#" class="a">
-            <div class="coliflor">
-                <p>Semillas de Coliflor</p>
-                <div class="imgg">
-                    <img src="../img/semillas/coliflor.png" alt="" width="250px" height="166px">
-                    </div>
-                <p class="precioL">60 Unidades $540</p>
             </div>
         </a>
         <a href="#" class="a">
@@ -174,41 +144,10 @@
                 <p class="precioL">60 Unidades $580</p>
             </div>
         </a>
-        <a href="#" class="a">
-            <div class="verdeo">
-                <p>Semillas de Verdeo</p>
-                <div class="imgg">
-                    <img src="../img/semillas/verdeo.png" alt="" width="250px" height="166px">
-                    </div>
-                <p class="precioL">60 Unidades $489</p>
             </div>
-            <div class="linea">
-
-            </div>
-            </div>
-        </a>
-
-           </td>
-        </tr>
-        
-        <footer>
-            
-            <tr height="10%">
-                
-                <td colspan="2" width="50%" >
-                    <div class="lele">
-                    <p><b> <center>FlorVax  <br>Empresa dedicada a la venta de semillas de vegetales y herramientas de agricultura.</center> 
-                    </b></p><br></div>
-                   
-            
-                </td>
-            
-            </tr>
-        </div>
-        </footer>
-    
-        </table>
-    
-    
+    </main>
+    <div class="footer">
+    <center>FlorVax <br>Empresa dedicada a la venta de semillas y herramientas de agricultura</center>
+    </div>
 </body>
 </html>

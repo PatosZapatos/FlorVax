@@ -4,89 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlorVax</title>
-    <link rel="icon" href="../tobi/img/semillas/logo_florvax.png">
-    <link rel="stylesheet" href="../css/herramientas.css">
-    
+    <link rel="stylesheet" href="../css/semillasmejor.css">
 </head>
 <body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
-  
-        <table width="1900" height="900">
-            
-                
-           <tr height="10%">
-            <td colspan="2" width="50%" >
-                    <menu>
-                        
-                        <div class="container">   
+<head>
+        <div class="header">
+        <h2 class="flor">FlorVax</h2>
+        <div class="input">
+        <input id="buscar" placeholder="Buscar" class="buscar" style="width: 500px; height: 30px;">
+        <button id="btn" class="btn" style="width: 100px; height: 40px;">Buscar🔎</button>
+        </div>
+        
+        <div class="container">   
                         <ul>
                             <li class="dropdown">
                                 <a>Categoria</a>
                                 <div class="dropdown-content">
-                                    <a href="../forms/semillas.php">Semillas</a>
-                                    <a href="../forms/herrramientas.php">Herramientas</a>
+                                    <a href="../forms/semillasmejor.php">Semillas</a>
+                                    <a href="../forms/herramientasmejor.php">Herramientas</a>
                                 </div>
                                 </li>
                             <li><a href="">Carrito</a></li>
                             <li><a href="">Usuario</a></li>
-                        <div class="puf">
-                                <input id="buscar" placeholder="Buscar" class="buscar" style="width: 500px; height: 31px;">
-                                <button id="btn" class="btn" style="height: 37px;">Buscar🔎</button>
-                </div>
-                            <p style="position: absolute;
-                                top: 1px;
-                                left: 16px;
-                                font-size: 18px; font-size: 30px; color: rgb(255, 255, 255)">FlorVax</p>
-                          </ul>
-                    </div>
-                </menu>
-            </td>
-                </tr>
-        <div class="info">
-           <tr height="1390px"><td colspan="2" width="50%" >
-            <div class="arriba">
-                Herramientas
-            </div>
-            
-            <a href="#" class="a">
+        </div>
+        </div>
+    </head>
+    <main>
+    <a href="../compra/lechuga.php" class="a">
             <div class="belen">
-                <p>Carretilla</p>
+            <p>Carretilla</p>
                 <div class="imgg">
                 <img src="../img/herramientas/carretilla.jpg" alt="" width="250px" height="166px">
                 </div>
                 <p class="precioL">$19.764</p>
             </div>
         </a>
-    
+
         <a href="#" class="a">
             <div class="tomate">
-                <p>Cortadora Profesional</p>
+            <p>Cortadora Profesional</p>
                 <div class="imgg">
                     <img src="../img/herramientas/cortt.jpg" alt="" width="250px" height="166px">
                     </div>
                 <p class="precioL">$2.716.076</p>
             </div>
         </a>
+
         <a href="#" class="a">
             <div class="morron">
-                <p>Bordeadora Electrica</p>
+            <p>Bordeadora Electrica</p>
                 <div class="imgg">
                     <img src="../img/herramientas/cortador.jpg" alt="" width="250px" height="166px">
                     </div>
                 <p class="precioL">$23.778</p>
             </div>
         </a>
+
         <a href="#" class="a">
             <div class="cebolla">
-                <p>Fertilizante</p>
+            <p>Fertilizante</p>
                 <div class="imgg">
                     <img src="../img/herramientas/fertilizante.webp" alt="" width="250px" height="166px">
                     </div>
                 <p class="precioL">$6.000</p>
             </div>
         </a>
+
         <a href="#" class="a">
-            <div class="champiñon">
-                <p>Guantes</p>
+            <div class="zanahoria">
+            <p>Guantes</p>
                 <div class="imgg">
                     <img src="../img/herramientas/guantes.webp" alt="" width="250px" height="166px">
                     </div>
@@ -94,8 +80,8 @@
             </div>
         </a>
         <a href="#" class="a">
-            <div class="zanahoria">
-                <p>Mini Invernadero</p>
+            <div class="brocoli">
+            <p>Mini Invernadero</p>
                 <div class="imgg">
                     <img src="../img/herramientas/invernadero.webp" alt="" width="250px" height="166px">
                     </div>
@@ -103,8 +89,8 @@
             </div>
         </a>
         <a href="#" class="a">
-            <div class="brocoli">
-                <p>Machete</p>
+            <div class="papa">
+            <p>Machete</p>
                 <div class="imgg">
                     <img src="../img/herramientas/machete.jpg" alt="" width="250px" height="166px">
                     </div>
@@ -112,8 +98,8 @@
             </div>
         </a>
         <a href="#" class="a">
-            <div class="papa">
-                <p>Manguera</p>
+            <div class="remolacha" a>
+            <p>Manguera</p>
                 <div class="imgg">
                     <img src="../img/herramientas/manguera.webp" alt="" width="250px" height="166px">
                     </div>
@@ -121,8 +107,8 @@
             </div>
         </a>
         <a href="#" class="a">
-            <div class="remolacha" a>
-                <p>Pala</p>
+            <div class="zapallo">
+            <p>Pala</p>
                 <div class="imgg">
                     <img src="../img/herramientas/palaaa.webp" alt="" width="250px" height="166px">
                     </div>
@@ -130,8 +116,8 @@
             </div>
         </a>
         <a href="#" class="a">
-            <div class="coliflor">
-                <p>Pala de Mano</p>
+            <div class="berenjena">
+            <p>Pala de Mano</p>
                 <div class="imgg">
                     <img src="../img/herramientas/palita angosta.webp" alt="" width="250px" height="166px">
                     </div>
@@ -139,8 +125,8 @@
             </div>
         </a>
         <a href="#" class="a">
-            <div class="zapallo">
-                <p>Picota</p>
+            <div class="puerro">
+            <p>Picota</p>
                 <div class="imgg">
                     <img src="../img/herramientas/picota.webp" alt="" width="250px" height="166px">
                     </div>
@@ -148,66 +134,16 @@
             </div>
         </a>
         <a href="#" class="a">
-            <div class="berenjena">
-                <p>Azada</p>
+            <div class="acelga">
+            <p>Azada</p>
                 <div class="imgg">
                     <img src="../img/herramientas/rastrillo.webp" alt="" width="250px" height="166px">
                     </div>
                 <p class="precioL">$3.900</p>
             </div>
         </a>
-        <a href="#" class="a">
-            <div class="puerro">
-                <p>Regadera Automatica</p>
-                <div class="imgg">
-                    <img src="../img/herramientas/regadero pro.webp" alt="" width="250px" height="166px">
-                    </div>
-                <p class="precioL">$3.000</p>
             </div>
-        </a>
-        <a href="#" class="a">
-            <div class="acelga">
-                <p>Rodilleras</p>
-                <div class="imgg">
-                    <img src="../img/herramientas/rodilleras.webp" alt="" width="250px" height="166px">
-                    </div>
-                <p class="precioL">$2.900</p>
-            </div>
-        </a>
-        <div href="#" class="a">
-            <div class="verdeo">
-                <p>Set Inicial</p>
-                <div class="imgg">
-                    <img src="../img/herramientas/set para macetas.webp" alt="" width="250px" height="166px">
-                    </div>
-                <p class="precioL">$1.600</p>
-            </div>
-        </div>
-    </div>
-       
-            
-            
-        
-           
-    
-        <footer>
-            
-            <tr height="10%">
-                
-                <td colspan="2" width="50%" >
-                    <div class="lele">
-                    <p><b> <center>FlorVax  <br>Empresa dedicada a la venta de semillas de vegetales y herramientas de agricultura.</center> 
-                    </b></p><br></div>
-                   
-            
-                </td>
-            
-            </tr>
-        </div>
-        </footer>
-    
-        </table>
-    
-    
+    <center><h4>Herramientas</h4></center>
+    </main>
 </body>
 </html>
