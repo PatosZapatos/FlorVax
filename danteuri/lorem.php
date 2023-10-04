@@ -25,8 +25,8 @@
 			var header = document.querySelector("header");
 			header.classList.toggle("abajo",window.scrollY>0);
 		})
-
-    <div class="container" >
+    </script>
+    <div class="container">
         <h3 class="altaTitulo">Mensajería</h3>
         <form class="altaInput" action="../code/altas.php" method="POST" enctype="multipart/form-data">
         <form class="altaInput">
