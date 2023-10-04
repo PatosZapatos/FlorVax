@@ -72,7 +72,7 @@
             </div>
         </a>
 
-        <a href="#" class="a">
+        <a href="../compra/zanahoria.php" class="a">
             <div class="zanahoria">
                 <p>Semillas de Zanahoria</p>
                 <div class="imgg">
@@ -81,7 +81,7 @@
                 <p class="precioL">60 Unidades $380</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../compra/brocoli.php" class="a">
             <div class="brocoli">
                 <p>Semillas de Brocoli</p>
                 <div class="imgg">
@@ -90,7 +90,7 @@
                 <p class="precioL">60 Unidades $770</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../compra/papa.php" class="a">
             <div class="papa">
                 <p>Semillas de Papas</p>
                 <div class="imgg">
@@ -99,7 +99,7 @@
                 <p class="precioL">60 Unidades $759</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../compra/remolacha.php" class="a">
             <div class="remolacha" a>
                 <p>Semillas de Remolacha</p>
                 <div class="imgg">
@@ -108,7 +108,7 @@
                 <p class="precioL">60 Unidades $620</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../compra/zapallo.php" class="a">
             <div class="zapallo">
                 <p>Semillas de Zapallo</p>
                 <div class="imgg">
@@ -117,7 +117,7 @@
                 <p class="precioL">60 Unidades $549</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../compra/berenjena.php" class="a">
             <div class="berenjena">
                 <p>Semillas de Berenjena</p>
                 <div class="imgg">
@@ -126,7 +126,7 @@
                 <p class="precioL">60 Unidades $789</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../compra/puerro.php" class="a">
             <div class="puerro">
                 <p>Semillas de Puerro</p>
                 <div class="imgg">
@@ -135,7 +135,7 @@
                 <p class="precioL">60 Unidades $689</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../compra/acelga.php" class="a">
             <div class="acelga">
                 <p>Semillas de Acelga</p>
                 <div class="imgg">

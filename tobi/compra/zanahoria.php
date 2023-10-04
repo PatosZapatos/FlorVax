@@ -31,13 +31,13 @@
     </head>
     <main>
     <center><h4>Compra</h4></center>
-    <h2 class="titulo">Semillas de Cebolla</h2>
-    <h5 class="info">-60 semillas de cebolla<br>-Traidas de Brasil<br>-Si no sabe como germinar. Adjunto tutorial: <a href="https://www.youtube.com/watch?v=HDHt6Y_zDTc" style="text-decoration:none; color:#bf0092" target="_blank">Clic Aqui</a></h5>
-    <h1 class="precio">$940</h1>
-    <h3 class="cuotas">Mismo precio en 3 cuotas de $313,33</h3>
+    <h2 class="titulo">Semillas de Zanahoria</h2>
+    <h5 class="info">-60 semillas de zanahoria<br>-Traidas de Brasil<br>-Si no sabe como germinar. Adjunto tutorial: <a href="https://www.youtube.com/watch?v=-_60TB6m33k" style="text-decoration:none; color:#bf0092" target="_blank">Clic Aqui</a></h5>
+    <h1 class="precio">$380</h1>
+    <h3 class="cuotas">Mismo precio en 3 cuotas de $126,66</h3>
     <a href="../forms/tarjeta.php"><button class="boton">Comprar</button></a>
     <div class="img">
-    <img src="../img/semillas/cebolla.png" alt="" width="600px" height="500px">
+    <img src="../img/semillas/zanahoria.png" alt="" width="600px" height="500px">
     </div>
     
 </main>
