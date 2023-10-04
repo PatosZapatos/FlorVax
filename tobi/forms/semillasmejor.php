@@ -126,7 +126,7 @@
                 <p class="precioL">60 Unidades $789</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../compra/puerro.php" class="a">
             <div class="puerro">
                 <p>Semillas de Puerro</p>
                 <div class="imgg">
@@ -135,7 +135,7 @@
                 <p class="precioL">60 Unidades $689</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../compra/acelga.php" class="a">
             <div class="acelga">
                 <p>Semillas de Acelga</p>
                 <div class="imgg">
