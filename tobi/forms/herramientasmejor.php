@@ -115,7 +115,7 @@
                 <p class="precioL">$12.900</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../herramientas/palamano.php" class="a">
             <div class="berenjena">
             <p>Pala de Mano</p>
                 <div class="imgg">

@@ -31,13 +31,13 @@
     </head>
     <main>
     <center><h4>Compra</h4></center>
-    <h2 class="titulo">Pala de Mano</h2>
-    <h5 class="info">-Pala de mano antioxidable de 45 cm de largo<br>-Para excavar tierra<br>-Nueva <br>-Consultar stock</h5>
-    <h1 class="precio">$5100</h1>
-    <h3 class="cuotas">Mismo precio en 3 cuotas de $1700</h3>
+    <h2 class="titulo">Machete</h2>
+    <h5 class="info">-Machete de metal antioxidable<br>-Para cortar las hierbas<br>-Nueva <br>-Consultar stock</h5>
+    <h1 class="precio">$2340</h1>
+    <h3 class="cuotas">Mismo precio en 3 cuotas de $780</h3>
     <a href="../forms/tarjeta.php"><button class="boton">Comprar</button></a>
     <div class="img">
-    <img src="../img/herramientas/palita angosta.webp" alt="" width="600px" height="500px">
+    <img src="../img/herramientas/machete.jpg" alt="" width="600px" height="500px">
     </div>
     
 </main>
