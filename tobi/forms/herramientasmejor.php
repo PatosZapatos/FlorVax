@@ -88,7 +88,7 @@
                 <p class="precioL">$6.000</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../herramientas/machete.php" class="a">
             <div class="papa">
             <p>Machete</p>
                 <div class="imgg">
@@ -97,7 +97,7 @@
                 <p class="precioL">2.340</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../herramientas/manguera.php" class="a">
             <div class="remolacha" a>
             <p>Manguera</p>
                 <div class="imgg">
@@ -106,7 +106,7 @@
                 <p class="precioL">$5.500</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../herramientas/pala.php" class="a">
             <div class="zapallo">
             <p>Pala</p>
                 <div class="imgg">
