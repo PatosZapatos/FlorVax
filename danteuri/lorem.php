@@ -29,8 +29,11 @@
     <br><br><br><br><br><br>
 	<img src="" /> 
     <div class="mensajeria">
-        <label for="">
-        <input type="text"><button type="button">hola</button>
+        <div class="mensajes">
+            
+        </div>
+        <label for="boton1">
+                <input type="text"><button type="button" name="buton1">Enviar</button>
         </label>
     </div>
 </body>
