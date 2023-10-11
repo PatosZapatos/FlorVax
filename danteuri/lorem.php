@@ -8,17 +8,14 @@
     
 </head>
 <body>
-    <header>
+<header>
 		<h1>Florvax</h1>
-		<nav>
-			<ul>
-                <li><a href="#">---------</a></li>
-				<li><a href="#">tienda</a></li>
-				<li><a href="#">donaciones</a></li>
-				<li><a href="../tobi/forms/nosotros.php">acerca de nosotros</a></li>
-				<li><a href="../bootstrap/register/register.php">Sign Up</a></li>
-				<li><a href="../bootstrap/sign-in/sign-in.php">Log In</a></li>
-			</ul>
+		<nav class="botones">
+				<a href="#">Tienda</a>
+				<a href="#">Donaciones</a>
+				<a href="../tobi/nosotros.html">Acerca de nosotros</a>
+				<a href="../bootstrap/register/register.php">Registrate</a>
+				<a href="../bootstrap/sign-in/sign-in.php">Inicia Sesión</a>
 		</nav>
     </header>
 	<section class="zona1"></section>
@@ -28,10 +25,10 @@
 			var header = document.querySelector("header");
 			header.classList.toggle("abajo",window.scrollY>0);
 		})
-
-    <div class="container" >
+    </script>
+    <div class="container">
         <h3 class="altaTitulo">Mensajería</h3>
-        <!-- <form class="altaInput" action="../code/altas.php" method="POST" enctype="multipart/form-data"> -->
+        <form class="altaInput" action="../code/altas.php" method="POST" enctype="multipart/form-data">
         <form class="altaInput">
 
             <div class="grupoInputs">
@@ -47,5 +44,7 @@
 </body>
 </html>
 <?php
-
+ function elpepe(){
+    
+ }
 ?>

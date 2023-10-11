@@ -30,7 +30,7 @@
         </div>
     </head>
     <main>
-    <a href="../compra/lechuga.php" class="a">
+    <a href="../herramientas/carretilla.php" class="a">
             <div class="belen">
             <p>Carretilla</p>
                 <div class="imgg">
@@ -40,7 +40,7 @@
             </div>
         </a>
 
-        <a href="#" class="a">
+        <a href="../herramientas/cortadorapro.php" class="a">
             <div class="tomate">
             <p>Cortadora Profesional</p>
                 <div class="imgg">
@@ -50,7 +50,7 @@
             </div>
         </a>
 
-        <a href="#" class="a">
+        <a href="../herramientas/bordeadora.php" class="a">
             <div class="morron">
             <p>Bordeadora Electrica</p>
                 <div class="imgg">
@@ -60,7 +60,7 @@
             </div>
         </a>
 
-        <a href="#" class="a">
+        <a href="../herramientas/fertilizante.php" class="a">
             <div class="cebolla">
             <p>Fertilizante</p>
                 <div class="imgg">
@@ -70,7 +70,7 @@
             </div>
         </a>
 
-        <a href="#" class="a">
+        <a href="../herramientas/guantes.php" class="a">
             <div class="zanahoria">
             <p>Guantes</p>
                 <div class="imgg">
@@ -79,7 +79,7 @@
                 <p class="precioL">$6.500</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../herramientas/invernadero.php" class="a">
             <div class="brocoli">
             <p>Mini Invernadero</p>
                 <div class="imgg">
@@ -88,7 +88,7 @@
                 <p class="precioL">$6.000</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../herramientas/machete.php" class="a">
             <div class="papa">
             <p>Machete</p>
                 <div class="imgg">
@@ -97,7 +97,7 @@
                 <p class="precioL">2.340</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../herramientas/manguera.php" class="a">
             <div class="remolacha" a>
             <p>Manguera</p>
                 <div class="imgg">
@@ -106,7 +106,7 @@
                 <p class="precioL">$5.500</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../herramientas/pala.php" class="a">
             <div class="zapallo">
             <p>Pala</p>
                 <div class="imgg">
@@ -115,7 +115,7 @@
                 <p class="precioL">$12.900</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../herramientas/palamano.php" class="a">
             <div class="berenjena">
             <p>Pala de Mano</p>
                 <div class="imgg">
