@@ -3,6 +3,8 @@
   padding: 0;
   background-color: rgb(221, 221, 209);
   }
+  body¨¨¨¨¨Ç
+  
   header{
     position: fixed;
     top: 0;
@@ -13,7 +15,7 @@
     transition: 0.7s;
     padding: 30px 20px;
     z-index: 10;
-    background-color: #9ef0d0;
+    background-image: linear-gradient(0deg, rgba(12,181,178,1) 19%, rgba(34,195,149,1) 54%);
    
   }
   h1 {
