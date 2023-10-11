@@ -5,43 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Florvax</title>
     <link rel="stylesheet" href="../paginaprincipal/estilos.css">
+    <link rel="stylesheet" href="">
     
 </head>
 <body>
-<header>
+	<header>
 		<h1>Florvax</h1>
 		<nav class="botones">
-				<a href="#">Tienda</a>
-				<a href="#">Donaciones</a>
-				<a href="../tobi/nosotros.html">Acerca de nosotros</a>
-				<a href="../bootstrap/register/register.php">Registrate</a>
-				<a href="../bootstrap/sign-in/sign-in.php">Inicia Sesión</a>
+			<a href="#">tienda</a>
+			<a href="#">donaciones</a>
+			<a href="/tobi/forms/nosotros.php">acerca de nosotros</a>
+			<a href="../bootstrap/register/register.php">Sign Up</a>
+			<a href="../bootstrap/sign-in/sign-in.php">Log In</a>
 		</nav>
-    </header>
-	<section class="zona1"></section>
-   
+	</header>
+
 	<script type="text/javascript">
-		window.addEventListener("scroll", function(){
+		window.addEventListener("scroll", function() {
 			var header = document.querySelector("header");
-			header.classList.toggle("abajo",window.scrollY>0);
+			header.classList.toggle("abajo", window.scrollY > 0);
 		})
-    </script>
-    <div class="container">
-        <h3 class="altaTitulo">Mensajería</h3>
-        <form class="altaInput" action="../code/altas.php" method="POST" enctype="multipart/form-data">
-        <form class="altaInput">
-
-            <div class="grupoInputs">
-                <input type="text" name="apellido"><br>
-            </div>
-
-            <div class="btn-submit">
-                <input type="submit" value="Enviar!"><br>
-            </div>
-        </form>
+	</script>
+    <br><br><br><br><br><br>
+	<img src="" /> 
+    <div class="mensajeria">
+        <label for="">
+        <input type="text"><button type="button">hola</button>
+        </label>
     </div>
-
 </body>
+
+</html>
 </html>
 <?php
  function elpepe(){
