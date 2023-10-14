@@ -1,5 +1,5 @@
 <?php
-include '#';
+    include 'menu.php';
 ?>
 <html lang="es">
 	<head>
@@ -22,12 +22,12 @@ include '#';
 			<th>Foto</th>
 			</tr>
 		</thead>
-	<?php 
 
+<?php 
 $base = "chat";
 $Conexion =  mysqli_connect("localhost","root","",$base);
 
-$cadena= "SELECT * FROM chat ";
+$cadena= "SELECT * FROM mensaje ";
 
 $consulta = mysqli_query($Conexion,$cadena);
 
@@ -38,7 +38,6 @@ while($registro = mysqli_fetch_row($consulta)){
 }
  ?>
     </table>
-	</body>
+</body>
 </html>
-
 
