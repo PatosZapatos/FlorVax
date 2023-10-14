@@ -1,6 +1,3 @@
-<?php
-    include 'menu.php';
-?>
 <html lang="es">
 	<head>
 	<meta charset="UTF-8">
@@ -8,8 +5,20 @@
 	<title>Formulario de Altas</title>
 	<link rel="stylesheet" href="#">
 	<link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="../paginaprincipal/estilos.css">
 	</head>
 	<body>
+    <header>
+		<h1>Florvax</h1>
+		<nav class="botones">
+			<a href="#">tienda</a>
+			<a href="#">donaciones</a>
+			<a href="/tobi/forms/nosotros.php">acerca de nosotros</a>
+			<a href="../bootstrap/register/register.php">Sign Up</a>
+			<a href="../bootstrap/sign-in/sign-in.php">Log In</a>
+		</nav>
+	</header>
+    <?php include 'menu.php'; ?>
 	<h3 class="tablatitulo">Listado de Mensajes</h3>
 
 	<table class="tabla">
