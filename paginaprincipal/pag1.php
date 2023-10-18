@@ -14,7 +14,7 @@
 		<nav class="botones">
 			<a href="#">tienda</a>
 			<a href="#">donaciones</a>
-			<a href="../tobi/nosotros.html">acerca de nosotros</a>
+			<a href="../tobi/forms/nosotrosmejor.php">acerca de nosotros</a>
 			<a href="../bootstrap/register/register.php">Sign Up</a>
 			<a href="../bootstrap/sign-in/sign-in.php">Log In</a>
 		</nav>
@@ -35,6 +35,8 @@
 		exif_read_datarere
 		rad2degere
 		error_get_last </p>
+
+	<script src="//code.tidio.co/eegsgmgdkjt44bdavglkwjseoaecpepw.js" async></script>
 </body>
 
 </html>
