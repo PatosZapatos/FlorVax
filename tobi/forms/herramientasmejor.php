@@ -124,7 +124,7 @@
                 <p class="precioL">$5.100</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../herramientas/picota.php" class="a">
             <div class="puerro">
             <p>Picota</p>
                 <div class="imgg">
@@ -133,7 +133,7 @@
                 <p class="precioL">$3.600</p>
             </div>
         </a>
-        <a href="#" class="a">
+        <a href="../herramientas/azada.php" class="a">
             <div class="acelga">
             <p>Azada</p>
                 <div class="imgg">

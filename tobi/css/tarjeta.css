@@ -1,57 +1,114 @@
 body{
     margin: 0%;
+    background-color: antiquewhite;
 }
-menu{
-    border-bottom: 1px solid rgb(0, 0, 0);
-  
+.header{
+    display: flex;
+    flex-direction: column;
     background-color: #702ec1;
-}
-a{
-    text-decoration: none;
-    overflow: hidden;
-    color: black;
-}
-.lap{
-    position: absolute;
-    right: 904px;
-    top: 92%;
-}
-.lap1{
-    position: absolute;
-    right: 602px;
-    top: 92%;
-}
-input{
-    font-size: large;
-    width: 600px;
-    
-}
-select{
-    font-size: large;
-}
-.info{ 
-         border-style: solid;
-         border-color: rgb(255, 188, 238);
-    background-color:  #ffe8a2;
-        border-radius: 12px;
-        padding: 5px;
-        width: 620px;
-        height: 600px;
-        position: absolute;
-        top: 37%;
-        left: 55%;
-        text-align: center;
-      }
-.pipi{
-    position: relative;
-    top: 1%;
-    left: 40%;
-}
-.morado{
-    background-color: #702ec1;
+    height: 90px;
 }
 
-.logo{
-    background-image: url(../img/semillas/logo_florvax.png);
-    color: #FFFFFF;
+.flor{
+    color: rgb(235, 228, 228);;
+}
+
+.input{
+    position: absolute;
+    top: 18px;
+    left: 25%;
+    font-size: 18px; font-size: 30px
+}
+.container{
+    position: absolute;
+    justify-content: right;
+    top: 18px;
+    left: 77%;
+    
+    
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #702ec1;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: rgb(235, 228, 228);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+   .dropdown:hover .dropbtn {
+    background-color: rgb(240, 240, 240);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #945adb;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color:#702ec1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .a{
+    text-decoration: none;
+    color: black;
+  }
+.bloque{
+    border-style: solid;
+    border-color: rgb(255, 188, 238);
+    background-color:  #ffe8a2;
+    border-radius: 12px;
+    padding: 5px;
+    width: 400px;
+    height: 513px;
+    position: absolute;
+    left: 32%;
+    top: 20%;
+    text-align: center;
+}
+.inputt{
+    width: 300px;
+    border-radius: 8px;
+    padding: 2px;
+    border-color: rgb(255, 188, 238);
+}
+.botonn{
+  border: none;
+  border-radius: 30px;
+  background: none;
+  background-color: #702ec1;
+  color: rgb(235, 228, 228);
+  padding: 6px 40px;
+  cursor: pointer;
+}
+.opciones{
+    background-color: antiquewhite;
+    color: black;
 }
