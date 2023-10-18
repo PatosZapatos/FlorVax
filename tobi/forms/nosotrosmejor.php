@@ -42,5 +42,6 @@
     <img src="../img/semillas/logo_florvax.png" alt="" width="650px" height="650px" style = "position: absolute; top: 10%; left: 740px;">
     
 </main>
+<?php include "../forms/script.php" ?>
 </body>
 </html>

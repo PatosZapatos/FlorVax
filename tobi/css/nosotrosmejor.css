@@ -104,4 +104,15 @@ body{
     max-width: 600px;
   margin: auto;
   }
- 
+  .btn{
+  border: none;
+  border-radius: 30px;
+  background: none;
+  background-color: #945adb;
+  color: rgb(235, 228, 228);
+  cursor: pointer;
+  }
+  .buscar{
+    border-radius: 8px;
+    border-color: #945adb;
+  }

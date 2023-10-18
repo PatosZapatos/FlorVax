@@ -150,5 +150,6 @@
     <div class="footer">
     <center>FlorVax <br>Empresa dedicada a la venta de semillas y herramientas de agricultura</center>
     </div>
+    <?php include "../forms/script.php" ?>
 </body>
 </html>

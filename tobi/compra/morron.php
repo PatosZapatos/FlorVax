@@ -42,5 +42,6 @@
     </div>
     
 </main>
+<?php include "../forms/script.php" ?>
 </body>
 </html>

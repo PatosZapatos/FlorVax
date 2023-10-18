@@ -35,7 +35,7 @@
         </div>
     </head>
     <main>
-    <form action="altas.php" method="POST">
+    <form action="compra.php" method="POST">
     
         <div class="bloque">
         
@@ -64,5 +64,6 @@
                         
                     </form>
     </main>
+    <?php include "../forms/script.php" ?>
     </body>
 </html> 
