@@ -8,7 +8,7 @@
             window.location.href = '../forms/semillasmejor.php';
         }
         if(buscar == 'sobre nosotros'){
-            window.location.href = 'nosotrosmejor.php';
+            window.location.href = '../forms/nosotrosmejor.php';
         }
         if(buscar == 'lechuga'){
             window.location.href = '../compra/lechuga.php';
