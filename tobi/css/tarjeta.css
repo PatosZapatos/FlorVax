@@ -120,6 +120,10 @@ body{
   color: rgb(235, 228, 228);
   cursor: pointer;
   }
+  .btn:hover{
+    background-color: #5d26a0;
+    
+  }
   .buscar{
     border-radius: 8px;
     border-color: #945adb;
