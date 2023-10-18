@@ -47,40 +47,40 @@
             window.location.href = '../compra/acelga.php';
         }
         if(buscar == 'carretilla'){
-            window.location.href = '../compra/carretilla.php';
+            window.location.href = '../herramientas/carretilla.php';
         }
         if(buscar == 'cortadora profesional'){
-            window.location.href = '../compra/cortadorapro.php';
+            window.location.href = '../herramientas/cortadorapro.php';
         }
         if(buscar == 'bordeadora electrica'){
-            window.location.href = '../compra/bordeadora.php';
+            window.location.href = '../herramientas/bordeadora.php';
         }
         if(buscar == 'fertilizante'){
-            window.location.href = '../compra/fertilizante.php';
+            window.location.href = '../herramientas/fertilizante.php';
         }
         if(buscar == 'guantes'){
-            window.location.href = '../compra/guantes.php';
+            window.location.href = '../herramientas/guantes.php';
         }
         if(buscar == 'mini invernadero'){
-            window.location.href = '../compra/invernadero.php';
+            window.location.href = '../herramientas/invernadero.php';
         }
         if(buscar == 'machete'){
-            window.location.href = '../compra/machete.php';
+            window.location.href = '../herramientas/machete.php';
         }
         if(buscar == 'manguera'){
-            window.location.href = '../compra/manguera.php';
+            window.location.href = '../herramientas/manguera.php';
         }
         if(buscar == 'pala'){
-            window.location.href = '../compra/pala.php';
+            window.location.href = '../herramientas/pala.php';
         }
         if(buscar == 'pala de mano'){
-            window.location.href = '../compra/palamano.php';
+            window.location.href = '../herramientas/palamano.php';
         }
         if(buscar == 'picota'){
-            window.location.href = '../compra/picota.php';
+            window.location.href = '../herramientas/picota.php';
         }
         if(buscar == 'azada'){
-            window.location.href = '../compra/azada.php';
+            window.location.href = '../herramientas/azada.php';
         }
     }
     
