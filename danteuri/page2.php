@@ -17,7 +17,7 @@ if($foto != "none"){
 	fclose($fp);
 	var_dump($fp);
 
-	$base = "chat";
+	$base = "florvax";
 	$Conexion =  mysqli_connect("localhost","root","",$base);
 
 	$cadena= "INSERT INTO mensaje(usuario, mensaje, foto) VALUES ('$usu','$msg','$contenido')";
