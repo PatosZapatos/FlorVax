@@ -31,13 +31,13 @@
     </head>
     <main>
     <center><h4>Compra</h4></center>
-    <h2 class="titulo">Picota</h2>
-    <h5 class="info">-Picota de metal<br>-Para picar<br>-Nueva <br>-Consultar stock</h5>
-    <h1 class="precio">$3600</h1>
-    <h3 class="cuotas">Mismo precio en 3 cuotas de $1200</h3>
+    <h2 class="titulo">Azada</h2>
+    <h5 class="info">-Azada de metal<br>-Para cavar y mover tierras<br>-Nueva <br>-Consultar stock</h5>
+    <h1 class="precio">$3900</h1>
+    <h3 class="cuotas">Mismo precio en 3 cuotas de $1300</h3>
     <a href="../forms/tarjeta.php"><button class="boton">Comprar</button></a>
     <div class="img">
-    <img src="../img/herramientas/picota.webp" alt="" width="600px" height="500px">
+    <img src="../img/herramientas/rastrillo.webp" alt="" width="600px" height="500px">
     </div>
     
 </main>

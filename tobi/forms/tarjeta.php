@@ -1,67 +1,67 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlorVax</title>
-    <link rel="icon" href="../tobi/img/semillas/logo_florvax.png">
     <link rel="stylesheet" href="../css/tarjeta.css">
 </head>
-<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
-    <table width="1900" height="900">
-        <tr height="20%">
-            <td colspan="2" width="30%" >
-                <div class="morado">
-                <menu>
-                    <div class="pe">
-                <a href="#" style="position: absolute;
-                                top: 34px;
-                                left: 16px;
-                                font-size: 18px; font-size: 30px;">FlorVax</a></div>
-                                 <div class="container">
-                                    <p style="position: absolute;
-                                    top: 8px;
-                                    left: 1000px;
-                                    font-size: 18px; font-size: 30px;">Compra</p>
-                                 </div>
-                                 
-</menu>
-</div>
-            </td>
-        </tr>
 
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <head>
+        <div class="header">
+        <h2 class="flor">FlorVax</h2>
+        <div class="input">
+        <input id="buscar" placeholder="Buscar" class="buscar" style="width: 500px; height: 30px;">
+        <button id="btn" class="btn" style="width: 100px; height: 40px;">Buscar🔎</button>
+        </div>
         
-            
-            <tr height="80%">
-                <td colspan="2" width="50%">
-                    <div class="info">
-                    </div>
-                    <div class="pipi">
-                    <form action="altas.php" method="POST">
-                        Nombre <br> <input type="text" name="nombre"><br>
-                        Apellido <br> <input type="text" name="apellido"><br>
-                        Edad <br> <input type="number" name="edad"><br>
-                        Correo Electronico <br> <input type="email" name="correo"><br>
+        <div class="container">   
+                        <ul>
+                            <li class="dropdown">
+                                <a>Categoria</a>
+                                <div class="dropdown-content">
+                                    <a href="../forms/semillasmejor.php">Semillas</a>
+                                    <a href="../forms/herramientasmejor.php">Herramientas</a>
+                                </div>
+                                </li>
+                            <li><a href="">Carrito</a></li>
+                            <li><a href="">Usuario</a></li>
+        </div>
+        </div>
+    </head>
+    <main>
+    <form action="altas.php" method="POST">
+    
+        <div class="bloque">
+        
+                        Nombre <br> <input type="text" name="nombre" class="inputt"><br>
+                        Apellido <br> <input type="text" name="apellido" class="inputt"><br>
+                        Edad <br> <input type="number" name="edad" class="inputt"><br>
+                        Correo Electronico <br> <input type="email" name="correo" class="inputt"><br>
                         <label for="tarjeta">Tipo De Tarjeta</label><br>
-                        <select id="tarjeta" name="tarjeta">
-                        <option value="visa">Visa</option>
-                        <option value="master">MasterCard</option>
-                        <option value="paypal">PayPal</option>
-                        <option value="discover">Discover</option>
+                        <select id="tarjeta" name="tarjeta" class="botonn">
+                        <option value="visa" class="opciones">Visa</option>
+                        <option value="master" class="opciones">MasterCard</option>
+                        <option value="paypal" class="opciones">PayPal</option>
+                        <option value="discover" class="opciones">Discover</option>
+                        </div>
                         </select><br>
-                        Numero De Tarjeta <br> <input type="number" name="tarjeta"><br>
-                        Codigo CVV <br> <input type="number" name="cvv"><br>
-                        Fecha De Vencimiento <br> <input type="datetime" name="fecha"><br>
-                        Ciudad <br> <input type="text" name="ciudad"><br>
-                        Direccion <br> <input type="number" name="dire"><br>
-                        Codigo Postal <br> <input type="number" name="cp"><br><br>
+                        Numero De Tarjeta <br> <input type="number" name="tarjeta" class="inputt"><br>
+                        Codigo CVV <br> <input type="number" name="cvv" class="inputt"><br>
+                        Fecha De Vencimiento <br> <input type="datetime" name="fecha" class="inputt"><br>
+                        Ciudad <br> <input type="text" name="ciudad" class="inputt"><br>
+                        Direccion <br> <input type="number" name="dire" class="inputt"><br>
+                        Codigo Postal <br> <input type="number" name="cp" class="inputt"><br><br>
                         
                          
-                        <input type="submit" value="Comprar"><br>
+                        <input type="submit" value="Comprar" class="botonn"><br>
+                        </div>
+                        
                     </form>
-                </div>
-            </td>
-         </tr>
-    </table>
-</body>
-</html>
+    </main>
+    </body>
+</html> 
