@@ -108,6 +108,10 @@ body{
   padding: 6px 40px;
   cursor: pointer;
 }
+.botonn:hover{
+  background-color: #5d26a0;
+  
+}
 .opciones{
     background-color: antiquewhite;
     color: black;
