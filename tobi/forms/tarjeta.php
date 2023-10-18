@@ -26,6 +26,7 @@
                                 <div class="dropdown-content">
                                     <a href="../forms/semillasmejor.php">Semillas</a>
                                     <a href="../forms/herramientasmejor.php">Herramientas</a>
+                                    <a href="../forms/nosotrosmejor.php">Acerca de nosotros</a>
                                 </div>
                                 </li>
                             <li><a href="">Carrito</a></li>
