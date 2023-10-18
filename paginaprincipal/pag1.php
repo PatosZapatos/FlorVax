@@ -27,14 +27,7 @@
 		})
 	</script>
 	<img src="" />
-	<p>aasasasas
-		a
-		adfdg
-		gdger
-		erere
-		exif_read_datarere
-		rad2degere
-		error_get_last </p>
+	<p> </p>
 
 	<script src="//code.tidio.co/eegsgmgdkjt44bdavglkwjseoaecpepw.js" async></script>
 </body>
