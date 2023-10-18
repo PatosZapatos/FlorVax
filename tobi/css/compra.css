@@ -112,6 +112,9 @@ left: 48%
   top: 60%;
   left: 48%
 }
+.boton:hover{
+  background-color: #5d26a0;
+}
 .btn{
   border: none;
   border-radius: 30px;
@@ -120,9 +123,15 @@ left: 48%
   color: rgb(235, 228, 228);
   cursor: pointer;
   }
+  .btn:hover{
+    background-color: #5d26a0;
+    
+  }
   .buscar{
     border-radius: 8px;
     border-color: #945adb;
   }
+
+
   
  
