@@ -1,19 +1,32 @@
 body{
-  margin: 0%;
+    margin: 0%;
+    background-color: antiquewhite;
 }
-menu{
-    border-bottom: 1px solid rgb(0, 0, 0);
+.header{
+    display: flex;
+    flex-direction: column;
     background-color: #702ec1;
+    height: 90px;
+}
+
+.flor{
+    color: rgb(235, 228, 228);;
+}
+
+.input{
+    position: absolute;
+    top: 18px;
+    left: 25%;
+    font-size: 18px; font-size: 30px
 }
 .container{
-    display: flex;
+    position: absolute;
     justify-content: right;
+    top: 18px;
+    left: 77%;
+    
+    
 }
-
-
-
-  
-  
   ul {
     list-style-type: none;
     margin: 0;
@@ -28,7 +41,7 @@ menu{
   
   li a, .dropbtn {
     display: inline-block;
-    color: rgb(0, 0, 0);
+    color: rgb(235, 228, 228);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -51,75 +64,59 @@ menu{
   }
   
   .dropdown-content a {
-    color: black;
+    color: rgb(235, 228, 228);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
   }
   
-  .dropdown-content a:hover {background-color: #702ec1;}
+  .dropdown-content a:hover {background-color:#702ec1;}
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .puf {
-    position: absolute;
-    top: 22px;
-    left: 650px;
-    font-size: 18px; font-size: 30px
+  .a{
+    text-decoration: none;
+    color: black;
   }
-
-  .arriba{
-    
-      position: absolute;
-      top: 15%;
-      width: 138%;
-      text-align: center;
-      font-size: 18px;
-    
-  }
-  .p1{
+  .h1{
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 10%;
   }
-  .p2{
+  .h5{
     position: absolute;
     top: 28%;
     left: 10%;
     max-width: 600px;
   margin: auto;
   }
-  .p3{
+  .h1_2{
     position: absolute;
-    top: 69%;
+    top: 65%;
     left: 10%;
   }
-  .p4{
+  .h5_2{
     position: absolute;
     top: 76%;
     left: 10%;
     max-width: 600px;
   margin: auto;
   }
-  .img{
-    position: absolute;
-    top: 10%;
-    left: 1050px;
+  .btn{
+  border: none;
+  border-radius: 30px;
+  background: none;
+  background-color: #945adb;
+  color: rgb(235, 228, 228);
+  cursor: pointer;
+  }
+  .btn:hover{
+    background-color: #5d26a0;
     
   }
-  .linea{
-    border-bottom: 1px solid rgb(0, 0, 0);
-    position: relative;
-    top: 65%;
-}
-.les{
-  position: absolute;
-   left: 10px;
-}
-.lele{
-  background-color: #702ec1;
-position: relative;
-top: 96%;
-}
+  .buscar{
+    border-radius: 8px;
+    border-color: #945adb;
+  }
