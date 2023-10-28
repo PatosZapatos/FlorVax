@@ -25,7 +25,7 @@
   <main class="form-signin w-100 m-auto" style="background: #efece2; border-radius: 15% 5%;">
     <form method="POST" action="register-process.php">
       <center>
-        <a href="../../paginaprincipal/pag1.php"><img class="mb-1 logoFlorvax" src="../brand/logo_florvax.png" alt="" width="92"
+        <a href="../../paginaprincipal/index.php"><img class="mb-1 logoFlorvax" src="../brand/logo_florvax.png" alt="" width="92"
             height="92"></a>
         <h1 class="h3 mb-3 fw-normal"> Crea tu Cuenta </h1>
       </center>

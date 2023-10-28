@@ -29,7 +29,7 @@ if (!$Conexion) {
 $resultado = mysqli_query($Conexion, $userStr);
 
 if (mysqli_num_rows($resultado) > 0) {
-    echo "<script>location.href='../../paginaprincipal/pag1.php'</script>";
+    echo "<script>location.href='../../paginaprincipal/index.php'</script>";
 } else {
     echo "<script> 
     document.getElementById('login-alerts').style.color = 'red';
