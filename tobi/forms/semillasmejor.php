@@ -20,7 +20,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="belen">
                 <p>Semillas de Lechuga</p>
                 <div class="imgg">
-                <img src="../img/semillas/lechuga.png" alt="" width="223px" height="166px">
+                <p><img src="../img/planta/lechugaplan.jpeg" alt="cambiar imagen" width="223px" height="166px" onmouseover="this.src=../img/semillas/lechuga.png'"></p>
                 </div>
                 <p class="precioL">60 Unidades $589</p>
             </div>
@@ -30,7 +30,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="tomate">
                 <p>Semillas de Tomate</p>
                 <div class="imgg">
-                    <img src="../img/semillas/tomate.png" alt="" width="223px" height="166px">
+                    <img src="../img/planta/tomateplan.jpg" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $800</p>
             </div>
@@ -40,7 +40,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="morron">
                 <p>Semillas de Morron</p>
                 <div class="imgg">
-                    <img src="../img/semillas/morron.png" alt="" width="223px" height="166px">
+                    <img src="../img/planta/morronplan.webp" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $750</p>
             </div>
@@ -50,7 +50,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="cebolla">
                 <p>Semillas de Cebolla</p>
                 <div class="imgg">
-                    <img src="../img/semillas/cebolla.png" alt="" width="223px" height="166px">
+                    <img src="../img/planta/cebollaplan.webp" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $940</p>
             </div>
@@ -60,7 +60,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="zanahoria">
                 <p>Semillas de Zanahoria</p>
                 <div class="imgg">
-                    <img src="../img/semillas/zanahoria.png" alt="" width="223px" height="166px">
+                    <img src="../img/planta/zanahoriaplan.jpg" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $380</p>
             </div>
@@ -69,7 +69,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="brocoli">
                 <p>Semillas de Brocoli</p>
                 <div class="imgg">
-                    <img src="../img/semillas/brocoli.png" alt="" width="223px" height="166px">
+                    <img src="../img/planta/brocoliplan.avif" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $770</p>
             </div>
@@ -78,7 +78,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="papa">
                 <p>Semillas de Papas</p>
                 <div class="imgg">
-                    <img src="../img/semillas/papa.png" alt="" width="223px" height="166px">
+                    <img src="../img/planta/papaplan.webp" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $759</p>
             </div>
@@ -87,7 +87,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="remolacha" a>
                 <p>Semillas de Remolacha</p>
                 <div class="imgg">
-                    <img src="../img/semillas/remolacha.png" alt="" width="223px" height="166px">
+                    <img src="../img/planta/remolachaplan.jpg" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $620</p>
             </div>
@@ -96,7 +96,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="zapallo">
                 <p>Semillas de Zapallo</p>
                 <div class="imgg">
-                    <img src="../img/semillas/zapallo.png" alt="" width="223px" height="166px">
+                    <img src="../img/planta/zapalloplan.png" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $549</p>
             </div>
@@ -105,7 +105,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="berenjena">
                 <p>Semillas de Berenjena</p>
                 <div class="imgg">
-                    <img src="../img/semillas/berenjena.png" alt="" width="223px" height="166px">
+                    <img src="../img/planta/berenjenaplan.webp" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $789</p>
             </div>
@@ -114,7 +114,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="puerro">
                 <p>Semillas de Puerro</p>
                 <div class="imgg">
-                    <img src="../img/semillas/puerro.png" alt="" width="223px" height="166px">
+                    <img src="../img/planta/puerroplan.jpeg" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $689</p>
             </div>
@@ -123,7 +123,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="acelga">
                 <p>Semillas de Acelga</p>
                 <div class="imgg">
-                    <img src="../img/semillas/acelga.png" alt="" width="223px" height="166px">
+                    <img src="../img/planta/acelgaplan.jpg" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $580</p>
             </div>
