@@ -34,7 +34,7 @@ session_start();
               $base = "florvax";
               $Conexion = mysqli_connect("localhost", "root", "", $base);
 
-              $cadena = "SELECT * FROM persona";
+              $cadena = "SELECT * FROM usuario";
               $consulta = mysqli_query($Conexion, $cadena);
               $registro = mysqli_fetch_row($consulta);
 

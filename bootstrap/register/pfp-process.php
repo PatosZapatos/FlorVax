@@ -8,8 +8,8 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-$foto = $_FILES['foto']["name"];
-$fotoTamanio = $_FILES['foto']["size"];
+$fotito = $_FILES["foto"]["tmp_name"];
+$fotoTamanio = $_FILES["foto"]["size"];
 
 
 $base = "florvax";
@@ -36,16 +36,16 @@ if ($fotoTamanio > 5242880) {
     </script>";
 
 } else {
-    if ($foto != "none") {
+    if ($fotito) {
         
-        $fp = fopen($foto, "rb");
+        $fp = fopen($fotito, "rb");
         $contenido = fread($fp, $fotoTamanio);
         $contenido = addslashes($contenido);
         fclose($fp);
 
         $usuarioID = $_SESSION["userID"];
 
-        $cadena = "UPDATE usuario SET foto = '$contenido' WHERE id = '$usuarioID'";
+        $cadena = "UPDATE usuario SET profilePic = '$contenido' WHERE userID = '$usuarioID'";
 
         $resultado = mysqli_query($Conexion, $cadena);
 
