@@ -49,7 +49,7 @@ if ($fotoTamanio > 5242880) {
 
         $resultado = mysqli_query($Conexion, $cadena);
 
-        $_SESSION['userPFP'] = $contenido;
+        $_SESSION["userPFP"] = $contenido;
 
         echo "<script>location.href='../../paginaprincipal/index.php'</script>";
 
