@@ -8,27 +8,10 @@
 </head>
 <body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
 <head>
-        <div class="header">
-        <h2 class="flor">FlorVax</h2>
-        <div class="input">
-        <input id="buscar" placeholder="Buscar" class="buscar" style="width: 500px; height: 30px;">
-        <button id="btn" class="btn" style="width: 100px; height: 40px;">Buscar🔎</button>
-        </div>
-        
-        <div class="container">   
-                        <ul>
-                            <li class="dropdown">
-                                <a>Categoria</a>
-                                <div class="dropdown-content">
-                                    <a href="../forms/semillasmejor.php">Semillas</a>
-                                    <a href="../forms/herramientasmejor.php">Herramientas</a>
-                                    <a href="../forms/nosotrosmejor.php">Acerca de nosotros</a>
-                                </div>
-                                </li>
-                            <li><a href="">Carrito</a></li>
-                            <li><a href="">Usuario</a></li>
-        </div>
-        </div>
+<?php
+// Este Include llama al Header, sin importar donde el Archivo actual se encuentre
+include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.php';
+?>
     </head>
     <main>
     <center><h4>Semillas</h4></center>
@@ -37,7 +20,7 @@
             <div class="belen">
                 <p>Semillas de Lechuga</p>
                 <div class="imgg">
-                <img src="../img/semillas/lechuga.png" alt="" width="250px">
+                <img src="../img/semillas/lechuga.png" alt="" width="223px" height="166px">
                 </div>
                 <p class="precioL">60 Unidades $589</p>
             </div>
@@ -47,7 +30,7 @@
             <div class="tomate">
                 <p>Semillas de Tomate</p>
                 <div class="imgg">
-                    <img src="../img/semillas/tomate.png" alt="" width="250px" height="166px">
+                    <img src="../img/semillas/tomate.png" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $800</p>
             </div>
@@ -57,7 +40,7 @@
             <div class="morron">
                 <p>Semillas de Morron</p>
                 <div class="imgg">
-                    <img src="../img/semillas/morron.png" alt="" width="250px" height="166px">
+                    <img src="../img/semillas/morron.png" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $750</p>
             </div>
@@ -67,7 +50,7 @@
             <div class="cebolla">
                 <p>Semillas de Cebolla</p>
                 <div class="imgg">
-                    <img src="../img/semillas/cebolla.png" alt="" width="250px" height="166px">
+                    <img src="../img/semillas/cebolla.png" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $940</p>
             </div>
@@ -77,7 +60,7 @@
             <div class="zanahoria">
                 <p>Semillas de Zanahoria</p>
                 <div class="imgg">
-                    <img src="../img/semillas/zanahoria.png" alt="" width="250px" height="166px">
+                    <img src="../img/semillas/zanahoria.png" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $380</p>
             </div>
@@ -86,7 +69,7 @@
             <div class="brocoli">
                 <p>Semillas de Brocoli</p>
                 <div class="imgg">
-                    <img src="../img/semillas/brocoli.png" alt="" width="250px" height="166px">
+                    <img src="../img/semillas/brocoli.png" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $770</p>
             </div>
@@ -95,7 +78,7 @@
             <div class="papa">
                 <p>Semillas de Papas</p>
                 <div class="imgg">
-                    <img src="../img/semillas/papa.png" alt="" width="250px" height="166px">
+                    <img src="../img/semillas/papa.png" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $759</p>
             </div>
@@ -104,7 +87,7 @@
             <div class="remolacha" a>
                 <p>Semillas de Remolacha</p>
                 <div class="imgg">
-                    <img src="../img/semillas/remolacha.png" alt="" width="250px" height="166px">
+                    <img src="../img/semillas/remolacha.png" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $620</p>
             </div>
@@ -113,7 +96,7 @@
             <div class="zapallo">
                 <p>Semillas de Zapallo</p>
                 <div class="imgg">
-                    <img src="../img/semillas/zapallo.png" alt="" width="250px" height="166px">
+                    <img src="../img/semillas/zapallo.png" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $549</p>
             </div>
@@ -122,7 +105,7 @@
             <div class="berenjena">
                 <p>Semillas de Berenjena</p>
                 <div class="imgg">
-                    <img src="../img/semillas/berenjena.png" alt="" width="250px" height="166px">
+                    <img src="../img/semillas/berenjena.png" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $789</p>
             </div>
@@ -131,7 +114,7 @@
             <div class="puerro">
                 <p>Semillas de Puerro</p>
                 <div class="imgg">
-                    <img src="../img/semillas/puerro.png" alt="" width="250px" height="166px">
+                    <img src="../img/semillas/puerro.png" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $689</p>
             </div>
@@ -140,7 +123,7 @@
             <div class="acelga">
                 <p>Semillas de Acelga</p>
                 <div class="imgg">
-                    <img src="../img/semillas/acelga.png" alt="" width="250px" height="166px">
+                    <img src="../img/semillas/acelga.png" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">60 Unidades $580</p>
             </div>

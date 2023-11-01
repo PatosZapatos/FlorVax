@@ -18,7 +18,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="belen">
             <p>Carretilla</p>
                 <div class="imgg">
-                <img src="../img/herramientas/carretilla.jpg" alt="" width="250px" height="166px">
+                <img src="../img/herramientas/carretilla.jpg" alt=""  width="223px" height="166px">
                 </div>
                 <p class="precioL">$19.764</p>
             </div>
@@ -28,7 +28,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="tomate">
             <p>Cortadora Profesional</p>
                 <div class="imgg">
-                    <img src="../img/herramientas/cortt.jpg" alt="" width="220px" height="166px">
+                    <img src="../img/herramientas/cortt.jpg" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">$2.716.076</p>
             </div>
@@ -38,7 +38,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="morron">
             <p>Bordeadora Electrica</p>
                 <div class="imgg">
-                    <img src="../img/herramientas/cortador.jpg" alt="" width="250px" height="166px">
+                    <img src="../img/herramientas/cortador.jpg" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">$23.778</p>
             </div>
@@ -48,7 +48,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="cebolla">
             <p>Fertilizante</p>
                 <div class="imgg">
-                    <img src="../img/herramientas/fertilizante.webp" alt="" width="250px" height="166px">
+                    <img src="../img/herramientas/fertilizante.webp" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">$6.000</p>
             </div>
@@ -58,7 +58,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="zanahoria">
             <p>Guantes</p>
                 <div class="imgg">
-                    <img src="../img/herramientas/guantes.webp" alt="" width="250px" height="166px">
+                    <img src="../img/herramientas/guantes.webp" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">$6.500</p>
             </div>
@@ -67,7 +67,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="brocoli">
             <p>Mini Invernadero</p>
                 <div class="imgg">
-                    <img src="../img/herramientas/invernadero.webp" alt="" width="250px" height="166px">
+                    <img src="../img/herramientas/invernadero.webp" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">$6.000</p>
             </div>
@@ -76,7 +76,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="papa">
             <p>Machete</p>
                 <div class="imgg">
-                    <img src="../img/herramientas/machete.jpg" alt="" width="250px" height="166px">
+                    <img src="../img/herramientas/machete.jpg" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">2.340</p>
             </div>
@@ -85,7 +85,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="remolacha" a>
             <p>Manguera</p>
                 <div class="imgg">
-                    <img src="../img/herramientas/manguera.webp" alt="" width="250px" height="166px">
+                    <img src="../img/herramientas/manguera.webp" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">$5.500</p>
             </div>
@@ -94,7 +94,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="zapallo">
             <p>Pala</p>
                 <div class="imgg">
-                    <img src="../img/herramientas/palaaa.webp" alt="" width="250px" height="166px">
+                    <img src="../img/herramientas/palaaa.webp" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">$12.900</p>
             </div>
@@ -103,7 +103,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="berenjena">
             <p>Pala de Mano</p>
                 <div class="imgg">
-                    <img src="../img/herramientas/palita angosta.webp" alt="" width="250px" height="166px">
+                    <img src="../img/herramientas/palita angosta.webp" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">$5.100</p>
             </div>
@@ -112,7 +112,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="puerro">
             <p>Picota</p>
                 <div class="imgg">
-                    <img src="../img/herramientas/picota.webp" alt="" width="250px" height="166px">
+                    <img src="../img/herramientas/picota.webp" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">$3.600</p>
             </div>
@@ -121,7 +121,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="acelga">
             <p>Azada</p>
                 <div class="imgg">
-                    <img src="../img/herramientas/rastrillo.webp" alt="" width="250px" height="166px">
+                    <img src="../img/herramientas/rastrillo.webp" alt="" width="223px" height="166px">
                     </div>
                 <p class="precioL">$3.900</p>
             </div>
