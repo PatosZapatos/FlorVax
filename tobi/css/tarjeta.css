@@ -2,80 +2,8 @@ body{
     margin: 0%;
     background-color: antiquewhite;
 }
-.header{
-    display: flex;
-    flex-direction: column;
-    background-color: #702ec1;
-    height: 90px;
-}
 
-.flor{
-    color: rgb(235, 228, 228);;
-}
 
-.input{
-    position: absolute;
-    top: 18px;
-    left: 25%;
-    font-size: 18px; font-size: 30px
-}
-.container{
-    position: absolute;
-    justify-content: right;
-    top: 18px;
-    left: 77%;
-    
-    
-}
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #702ec1;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a, .dropbtn {
-    display: inline-block;
-    color: rgb(235, 228, 228);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-   .dropdown:hover .dropbtn {
-    background-color: rgb(240, 240, 240);
-  }
-  
-  li.dropdown {
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #945adb;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: rgb(235, 228, 228);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {background-color:#702ec1;}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
   .a{
     text-decoration: none;
     color: black;
@@ -83,11 +11,11 @@ body{
 .bloque{
     border-style: solid;
     border-color: rgb(255, 188, 238);
-    background-color:  #ffe8a2;
+    background-color:  #81d7cd;;
     border-radius: 12px;
     padding: 5px;
-    width: 400px;
-    height: 513px;
+    width: 550px;
+    height: 700px;
     position: absolute;
     left: 32%;
     top: 20%;
@@ -98,37 +26,24 @@ body{
     border-radius: 8px;
     padding: 2px;
     border-color: rgb(255, 188, 238);
+    
 }
 .botonn{
-  border: none;
   border-radius: 30px;
   background: none;
-  background-color: #702ec1;
-  color: rgb(235, 228, 228);
+  background-color: #81d7cd;
+  border-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 6px 40px;
   cursor: pointer;
 }
 .botonn:hover{
-  background-color: #5d26a0;
+  background-color: #ffffff;
+  transition: 0.7s;
+  color: #000000;
   
 }
 .opciones{
     background-color: antiquewhite;
     color: black;
 }
-.btn{
-  border: none;
-  border-radius: 30px;
-  background: none;
-  background-color: #945adb;
-  color: rgb(235, 228, 228);
-  cursor: pointer;
-  }
-  .btn:hover{
-    background-color: #5d26a0;
-    
-  }
-  .buscar{
-    border-radius: 8px;
-    border-color: #945adb;
-  }
