@@ -4,6 +4,10 @@ include 'sign-in.php';
 
 <?php
 
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 $mail = $_POST['email'];
 $psw = $_POST['passw'];
 
@@ -29,7 +33,15 @@ if (!$Conexion) {
 $resultado = mysqli_query($Conexion, $userStr);
 
 if (mysqli_num_rows($resultado) > 0) {
+    $row = mysqli_fetch_assoc($resultado);
+
+    $_SESSION['userID'] = $row['userID'];
+    $_SESSION['email'] = $row['email'];
+    $_SESSION['username'] = $row['username'];
+    $_SESSION['profilepic'] = $row['profilepic'];
+
     echo "<script>location.href='../../paginaprincipal/index.php'</script>";
+
 } else {
     echo "<script> 
     document.getElementById('login-alerts').style.color = 'red';

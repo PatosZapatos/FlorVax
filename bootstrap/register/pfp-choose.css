@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.logoFlorvax:hover{
+  transform:scale(1.2);
+}
+
+.form-signin input[name="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[name="passw"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin #togglePassword {
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+.fa-eye{
+  position: absolute;
+  top: 37%;
+  right: 4%;
+  cursor: pointer;
+  color: lightgray;
+}
