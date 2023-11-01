@@ -34,7 +34,7 @@ $Conexion = mysqli_connect("localhost", "root", "", $base);
         </ul>
 
         <a href="#"><img class="center-image d-block"
-              src="/php/florvax/bootstrap/img/shoppingcart.png" style="border-radius: 100%" width="32px" /></a>
+              src="/php/florvax/bootstrap/img/shoppingcart.png" width="30px" /></a>
 
         <div class="col text-end">
 
@@ -61,15 +61,15 @@ $Conexion = mysqli_connect("localhost", "root", "", $base);
               <li><p class="dropdown-item">';
 
             if ($registro[4] != "") {
-              echo "<img class= 'center-image' src='data:image/jpeg;base64," . base64_encode($registro[4]) . "' style='border-radius: 100%' width='48px'/>";
+              echo "<img class= 'center-image' src='data:image/jpeg;base64," . base64_encode($registro[4]) . "' width='48px'/>";
             } else {
-              echo "<img class= 'center-image' src='/php/florvax/bootstrap/img/noProfile.jpg' style='border-radius: 100%' width='48px'/>";
+              echo "<img class= 'center-image' src='/php/florvax/bootstrap/img/noProfile.jpg' width='48px'/>";
             }
 
             echo ' ' . $_SESSION["username"] . '</a></li>
               <li><a class="dropdown-item" href="/php/florvax/bootstrap/register/pfp-choose.php">Cambiar Foto</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="/php/florvax/bootstrap/sign-in/logout.php">Sign out</a></li>
+              <li><a class="dropdown-item" href="/php/florvax/bootstrap/sign-in/logout.php">Cerrar Sesión</a></li>
             </ul>
           </div>';
           } else {
