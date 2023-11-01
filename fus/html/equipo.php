@@ -9,25 +9,12 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/equipo.css">
-</head>
+<?php
+include "header.php";
+?>
 
 <body>
 
-    <header>
-        <div class="nav">
-                <div class="logo"><img src="../img/favicon.png" alt=""><a href="#">FlorVax</a></div>
-                <ul class="links">
-                    <li><a href="#">Donar</a></li>
-                    <li><a href="#">Categorias</a></li>
-                    <li><a href="#">Carrito</a></li>
-                </ul>
-            <div class="containerbusqueda">
-                <input type="text" placeholder="Buscar...">
-                <button onclick="">🔎</button>
-            </div>
-            <a href="#"><img src="../img/cuenta.png" alt=""></a>
-        </div>
-    </header>
     <div id="divtitulo">
         <h1 id="titulo">Conoce al Equipo</h1>
     </div>
