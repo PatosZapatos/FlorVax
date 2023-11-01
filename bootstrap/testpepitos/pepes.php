@@ -2,7 +2,12 @@
 
 <?php
 
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+  session_start();
+}
+
+$base = "florvax";
+$Conexion = mysqli_connect("localhost", "root", "", $base);
 
 ?>
 
@@ -30,15 +35,18 @@ session_start();
         <div class="col text-end">
           <?php
           if (isset($_SESSION["userID"])) {
-            if (isset($_SESSION["userPFP"])) {
-              $base = "florvax";
-              $Conexion = mysqli_connect("localhost", "root", "", $base);
 
-              $cadena = "SELECT * FROM usuario";
-              $consulta = mysqli_query($Conexion, $cadena);
-              $registro = mysqli_fetch_row($consulta);
+            $usuarioID = $_SESSION["userID"];
 
+            $cadena = "SELECT * FROM usuario WHERE userID = '$usuarioID'";
+
+            $consulta = mysqli_query($Conexion, $cadena);
+            $registro = mysqli_fetch_row($consulta);
+            
+            if ($registro[4] != "") {
               echo "<img class= 'center-image' src='data:image/jpeg;base64," . base64_encode($registro[4]) . "' width='32px'/>";
+            } else {
+              echo "<img class= 'center-image' src='/php/florvax/bootstrap/img/noProfile.jpg' style='border-radius: 100%' width='32px'/>";
             }
             echo '<a href="/php/florvax/bootstrap/register/pfp-choose.php"><button type="button" class="btn text-white">Cambiar Foto</button></a><a href="/php/florvax/bootstrap/sign-in/logout.php"><button type="button" class="btn text-white">Logout</button></a>';
           } else {
