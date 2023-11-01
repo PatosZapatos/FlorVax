@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header</title>
+    <link rel="icon" href="../img/favicon.png">
+    <script src="https://kit.fontawesome.com/375a0b3132.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
 </head>
@@ -19,9 +21,11 @@
                 </ul>
             <div class="containerbusqueda">
                 <input type="text" placeholder="Buscar...">
-                <button onclick="">🔎</button>
+                <button onclick=""><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
-            <a href="#"><img src="../img/cuenta.png" alt=""></a>
+            <a><i class="fa-solid fa-shopping-cart"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
         </div>
+        <header>
 </body>
 </html>
