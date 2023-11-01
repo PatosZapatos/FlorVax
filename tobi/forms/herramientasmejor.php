@@ -8,27 +8,10 @@
 </head>
 <body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
 <head>
-        <div class="header">
-        <h2 class="flor">FlorVax</h2>
-        <div class="input">
-        <input id="buscar" placeholder="Buscar" class="buscar" style="width: 500px; height: 30px;">
-        <button id="btn" class="btn" style="width: 100px; height: 40px;">Buscar🔎</button>
-        </div>
-        
-        <div class="container">   
-                        <ul>
-                            <li class="dropdown">
-                                <a>Categoria</a>
-                                <div class="dropdown-content">
-                                    <a href="../forms/semillasmejor.php">Semillas</a>
-                                    <a href="../forms/herramientasmejor.php">Herramientas</a>
-                                    <a href="../forms/nosotrosmejor.php">Acerca de nosotros</a>
-                                </div>
-                                </li>
-                            <li><a href="">Carrito</a></li>
-                            <li><a href="">Usuario</a></li>
-        </div>
-        </div>
+<?php
+// Este Include llama al Header, sin importar donde el Archivo actual se encuentre
+include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.php';
+?>
     </head>
     <main>
     <a href="../herramientas/carretilla.php" class="a">
@@ -45,7 +28,7 @@
             <div class="tomate">
             <p>Cortadora Profesional</p>
                 <div class="imgg">
-                    <img src="../img/herramientas/cortt.jpg" alt="" width="250px" height="166px">
+                    <img src="../img/herramientas/cortt.jpg" alt="" width="220px" height="166px">
                     </div>
                 <p class="precioL">$2.716.076</p>
             </div>
