@@ -1,0 +1,10 @@
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.tittle {
+    margin-top: 20px;
+    text-align: center;
+}
