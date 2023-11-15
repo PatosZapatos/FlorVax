@@ -16,37 +16,37 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
     <main>
     <a href="../herramientas/carretilla.php" class="a">
             <div class="belen">
-            <p>Roble Blanco</p>
+            <p>Manzana</p>
                 <div class="imgg">
                 <img src="../img/arbsem/semrobleblan.jpg" alt=""  width="223px" height="166px">
                 </div>
-                <p class="precioL">20 Unidades $1.240</p>
+                <p class="precioL">10 Unidades $1.800</p>
             </div>
         </a>
 
         <a href="../herramientas/cortadorapro.php" class="a">
             <div class="tomate">
-            <p>Roble Europeo</p>
+            <p>Platano</p>
                 <div class="imgg">
                     <img src="../img/arbsem/semrobleeu.webp" alt="" width="223px" height="166px">
                     </div>
-                <p class="precioL">20 Unidades $2.300</p>
+                <p class="precioL">10 Unidades $1.950</p>
             </div>
         </a>
 
         <a href="../herramientas/bordeadora.php" class="a">
             <div class="morron">
-            <p>Pino Ponderosa</p>
+            <p>Fresa</p>
                 <div class="imgg">
                     <img src="../img/arbsem/ponsem.jpg" alt="" width="223px" height="166px">
                     </div>
-                <p class="precioL">20 Unidades $1.250</p>
+                <p class="precioL">10 Unidades $2.100</p>
             </div>
         </a>
 
         <a href="../herramientas/fertilizante.php" class="a">
             <div class="cebolla">
-            <p>Abedul</p>
+            <p>Uva</p>
                 <div class="imgg">
                     <img src="../img/arbsem/abesem.jpg" alt="" width="223px" height="166px">
                     </div>
@@ -56,7 +56,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
 
         <a href="../herramientas/guantes.php" class="a">
             <div class="zanahoria">
-            <p>Cedro Del Himalaya</p>
+            <p>Naranja</p>
                 <div class="imgg">
                     <img src="../img/arbsem/cedrohim.jpg" alt="" width="223px" height="166px">
                     </div>
@@ -65,7 +65,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
         </a>
         <a href="../herramientas/invernadero.php" class="a">
             <div class="brocoli">
-            <p>Aceite De Palma</p>
+            <p>Kiwi</p>
                 <div class="imgg">
                     <img src="../img/arbsem/aceite.jpg" alt="" width="223px" height="166px">
                     </div>
@@ -74,7 +74,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
         </a>
         <a href="../herramientas/machete.php" class="a">
             <div class="papa">
-            <p>Arce De Tartaria</p>
+            <p>Mango</p>
                 <div class="imgg">
                     <img src="../img/arbsem/acertar.jpg" alt="" width="223px" height="166px">
                     </div>
@@ -83,7 +83,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
         </a>
         <a href="../herramientas/manguera.php" class="a">
             <div class="remolacha" a>
-            <p>Alamo Piramidal</p>
+            <p>Anana</p>
                 <div class="imgg">
                     <img src="../img/arbsem/almpir.JPG" alt="" width="223px" height="166px">
                     </div>
@@ -92,7 +92,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
         </a>
         <a href="../herramientas/pala.php" class="a">
             <div class="zapallo">
-            <p>Alcornoque</p>
+            <p>Sandia</p>
                 <div class="imgg">
                     <img src="../img/arbsem/alcor.jpg" alt="" width="223px" height="166px">
                     </div>
@@ -101,7 +101,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
         </a>
         <a href="../herramientas/palamano.php" class="a">
             <div class="berenjena">
-            <p>Cipres Piramidal</p>
+            <p>Melocoton</p>
                 <div class="imgg">
                     <img src="../img/arbsem/cippir.jpg" alt="" width="223px" height="166px">
                     </div>
@@ -110,7 +110,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
         </a>
         <a href="../herramientas/picota.php" class="a">
             <div class="puerro">
-            <p>Eucalipto</p>
+            <p>Limon</p>
                 <div class="imgg">
                     <img src="../img/arbsem/eucalipto.jpg" alt="" width="223px" height="166px">
                     </div>
@@ -119,7 +119,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
         </a>
         <a href="../herramientas/azada.php" class="a">
             <div class="acelga">
-            <p>Olmo</p>
+            <p>Cereza</p>
                 <div class="imgg">
                     <img src="../img/arbsem/olmo.jpg" alt="" width="223px" height="166px">
                     </div>
