@@ -30,7 +30,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
           <div class="carousel-item active">
             <img src="imagenes/Flroes.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption ">
-              <h5>Primera planta</h5>
+              <h5><u>Flores</u></h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus ex quibusdam, possimus architecto necessitatibus!</p>
                 <p><a href="#" class="btn btn-warning mt-3">Leer mas</a></p>
             </div>
@@ -38,7 +38,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
           <div class="carousel-item">
             <img src="imagenes/frutas.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption ">
-              <h5>Segunda planta</h5>
+              <h5><u>Frutas</u></h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus ex quibusdam, possimus architecto necessitatibus!</p>
                 <p><a href="#" class="btn btn-warning mt-3">Leer mas</a></p>
             </div>
@@ -46,7 +46,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
           <div class="carousel-item">
             <img src="imagenes/verduras.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption ">
-              <h5>Tercera planta</h5>
+              <h5><u>Vegetales</u></h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus ex quibusdam, possimus architecto necessitatibus!</p>
                 <p><a href="#" class="btn btn-warning mt-3">Leer mas</a></p>
             </div>
@@ -68,7 +68,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                               <div class="row">
                                <div class="col-md-12">
                                    <div class="section-header text-center pb-5">
-                                       <h2>Productos mas buscados</h2>
+                                       <h2><strong><u>Productos mas buscados</u></strong></h2>
                                        <p>Lorem ipsum dolor sit <br> amet consectetur adipisicing</p>
                                    </div> 
                                  </div>
@@ -156,7 +156,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-header text-center pb-5">
-                        <h2>Hermosas Flores</h2>
+                        <h2><strong><u>Hermosas Flores</u></strong></h2>
                         <p>Lorem ipsum dolor sit <br> amet consectetur adipisicing</p>
                     </div> 
                   </div>
@@ -227,7 +227,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-header text-center pb-5">
-                        <h2>Otro servicio</h2>
+                        <h2><strong>Otro servicio</strong></h2>
                         <p>Lorem ipsum dolor sit <br> amet consectetur adipisicing</p>
                     </div> 
                   </div>
@@ -277,7 +277,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header text-center pb-5">
-                                <h2>Creadores de la pagina</h2>
+                                <h2><strong><u>Creadores de la pagina</u></strong></h2>
                                 <p>Lorem ipsum dolor sit <br> amet consectetur adipisicing</p>
                             </div> 
                           </div>
