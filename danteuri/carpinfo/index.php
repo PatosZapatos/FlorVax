@@ -36,3 +36,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
 </body>
 
 </html>
+<?php
+    include 'coso.php'
+?>
