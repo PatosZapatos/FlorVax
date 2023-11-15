@@ -1,0 +1,43 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tittle {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.secciones {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.secciones a {
+    width: 200px;
+    margin: 10px;
+    overflow: hidden; /* Evita que las imágenes sobresalgan */
+    transition: opacity 0.4s ease-in-out;
+}
+
+.secciones a:hover {
+    opacity: 0.7;
+}
+
+.secciones img {
+    width: 100%; /* Hace que las imágenes ocupen el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+/* @keyframes fadeInOut {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+} */

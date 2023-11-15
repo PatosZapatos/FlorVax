@@ -16,17 +16,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
     <main>
     <center><h4>Semillas</h4></center>
     
-    <a href="../compra/lechuga.php" class="a">
+    <a href="../vegetales/lechuga.php" class="a">
             <div class="belen">
                 <p>Semillas de Lechuga</p>
                 <div class="imgg">
-                <p><img src="../img/planta/lechugaplan.jpeg" alt="cambiar imagen" width="223px" height="166px" onmouseover="this.src='../img/semillas/lechuga.png'" onmouseout="this.src='../img/planta/lechugaplan.jpeg'"></p>
+                <p><img src="../img/planta/lechugaplan.jpeg" alt="cambiar imagen" width="223px" height="166px" onmouseover ="this.src='../img/semillas/lechuga.png' " onmouseout="this.src='../img/planta/lechugaplan.jpeg'" ></p>
                 </div>
                 <p class="precioL">60 Unidades $589</p>
             </div>
         </a>
 
-        <a href="../compra/tomate.php" class="a">
+        <a href="../vegetales/tomate.php" class="a">
             <div class="tomate">
                 <p>Semillas de Tomate</p>
                 <div class="imgg">
@@ -36,7 +36,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             </div>
         </a>
 
-        <a href="../compra/morron.php" class="a">
+        <a href="../vegetales/morron.php" class="a">
             <div class="morron">
                 <p>Semillas de Morron</p>
                 <div class="imgg">
@@ -46,7 +46,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             </div>
         </a>
 
-        <a href="../compra/cebolla.php" class="a">
+        <a href="../vegetales/cebolla.php" class="a">
             <div class="cebolla">
                 <p>Semillas de Cebolla</p>
                 <div class="imgg">
@@ -56,7 +56,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             </div>
         </a>
 
-        <a href="../compra/zanahoria.php" class="a">
+        <a href="../vegetales/zanahoria.php" class="a">
             <div class="zanahoria">
                 <p>Semillas de Zanahoria</p>
                 <div class="imgg">
@@ -65,7 +65,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <p class="precioL">60 Unidades $380</p>
             </div>
         </a>
-        <a href="../compra/brocoli.php" class="a">
+        <a href="../vegetales/brocoli.php" class="a">
             <div class="brocoli">
                 <p>Semillas de Brocoli</p>
                 <div class="imgg">
@@ -74,7 +74,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <p class="precioL">60 Unidades $770</p>
             </div>
         </a>
-        <a href="../compra/papa.php" class="a">
+        <a href="../vegetales/papa.php" class="a">
             <div class="papa">
                 <p>Semillas de Papas</p>
                 <div class="imgg">
@@ -83,16 +83,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <p class="precioL">60 Unidades $759</p>
             </div>
         </a>
-        <a href="../compra/remolacha.php" class="a">
+        <a href="../vegetales/remolacha.php" class="a">
             <div class="remolacha" a>
                 <p>Semillas de Remolacha</p>
                 <div class="imgg">
-                    <img src="../img/planta/remolachaplan.jpg" alt="" width="223px" height="166px" onmouseover="this.src='../img/semillas/lechuga.png'" onmouseout="this.src='../img/planta/remolachaplan.jpg'">
+                    <img src="../img/planta/remolachaplan.jpg" alt="" width="223px" height="166px" onmouseover="this.src='../img/semillas/remolacha.png'" onmouseout="this.src='../img/planta/remolachaplan.jpg'">
                     </div>
                 <p class="precioL">60 Unidades $620</p>
             </div>
         </a>
-        <a href="../compra/zapallo.php" class="a">
+        <a href="../vegetales/zapallo.php" class="a">
             <div class="zapallo">
                 <p>Semillas de Zapallo</p>
                 <div class="imgg">
@@ -101,7 +101,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <p class="precioL">60 Unidades $549</p>
             </div>
         </a>
-        <a href="../compra/berenjena.php" class="a">
+        <a href="../vegetales/berenjena.php" class="a">
             <div class="berenjena">
                 <p>Semillas de Berenjena</p>
                 <div class="imgg">
@@ -110,7 +110,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <p class="precioL">60 Unidades $789</p>
             </div>
         </a>
-        <a href="../compra/puerro.php" class="a">
+        <a href="../vegetales/puerro.php" class="a">
             <div class="puerro">
                 <p>Semillas de Puerro</p>
                 <div class="imgg">
@@ -119,7 +119,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <p class="precioL">60 Unidades $689</p>
             </div>
         </a>
-        <a href="../compra/acelga.php" class="a">
+        <a href="../vegetales/acelga.php" class="a">
             <div class="acelga">
                 <p>Semillas de Acelga</p>
                 <div class="imgg">
