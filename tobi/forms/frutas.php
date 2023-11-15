@@ -127,7 +127,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
             </div>
         </a>
             </div>
-    <center><h4>Semillas De Arboles</h4></center>
+    <center><h4>Semillas De Frutas</h4></center>
     </main>
     <div class="footer">
     <center>FlorVax <br>Empresa dedicada a la venta de semillas y herramientas de agricultura</center>
