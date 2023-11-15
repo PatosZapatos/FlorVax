@@ -15,13 +15,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
     </head>
     <main>
     <center><h4>Compra</h4></center>
-    <h2 class="titulo">Arbol de Abedul</h2>
-    <h5 class="info">-Es un género de árboles de la familia Betulaceae.<br>-Altura: entre 10 y 30 m, dependiendo de la especie.<br>-Sirve de alimento a un gran número de lepidópteros</h5>
-    <h1 class="precio">$30.000</h1>
-    <h3 class="cuotas">Mismo precio en 3 cuotas de $10.000</h3>
+    <h2 class="titulo">Arbol de Arce de Tartaria</h2>
+    <h5 class="info">-Es una especie botánica de arce.<br>-crece hasta 4-12 m de alto.<br>-Sirve como una planta ornamental en los jardines</h5>
+    <h1 class="precio">$39.600</h1>
+    <h3 class="cuotas">Mismo precio en 3 cuotas de $13.200</h3>
     <a href="../forms/tarjeta.php"><button class="boton">Comprar</button></a>
     <div class="img">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_858048-MLA46333850978_062021-W.webp" alt="" width="600px" height="500px">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5chO0a-7BEvGtaLMHA26OaE56e8O_17YX44lkiwjkyGPIKwemAWrgXvPYY8GRZslTmpc&usqp=CAU" alt="" width="600px" height="500px">
     </div>
     
 </main>
