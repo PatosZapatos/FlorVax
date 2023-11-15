@@ -31,6 +31,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
         <a href="int/hiervas.php">
             <img src="../img/ejhierva.jpg" alt="">
         </a>
+        <a href="int/verduras.php">
+            <img src="../img/verdura.jpg" alt="">
+        </a>
     </div>
 
 </body>
