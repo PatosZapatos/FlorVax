@@ -50,7 +50,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <div class="imgg">
                     <img src="../img/arbsem/abesem.jpg" alt="" width="223px" height="166px">
                     </div>
-                <p class="precioL">20 Unidades $2.000</p>
+                <p class="precioL">10 Unidades $1.000</p>
             </div>
         </a>
 
@@ -60,7 +60,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <div class="imgg">
                     <img src="../img/arbsem/cedrohim.jpg" alt="" width="223px" height="166px">
                     </div>
-                <p class="precioL">50 Unidades $1.570</p>
+                <p class="precioL">10 Unidades $1.680</p>
             </div>
         </a>
         <a href="../herramientas/invernadero.php" class="a">
@@ -69,7 +69,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <div class="imgg">
                     <img src="../img/arbsem/aceite.jpg" alt="" width="223px" height="166px">
                     </div>
-                <p class="precioL">20 Unidades $4.600</p>
+                <p class="precioL">10 Unidades $1.600</p>
             </div>
         </a>
         <a href="../herramientas/machete.php" class="a">
@@ -78,7 +78,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <div class="imgg">
                     <img src="../img/arbsem/acertar.jpg" alt="" width="223px" height="166px">
                     </div>
-                <p class="precioL">20 Unidades $3.600</p>
+                <p class="precioL">10 Unidades $2.300</p>
             </div>
         </a>
         <a href="../herramientas/manguera.php" class="a">
@@ -87,7 +87,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <div class="imgg">
                     <img src="../img/arbsem/almpir.JPG" alt="" width="223px" height="166px">
                     </div>
-                <p class="precioL">20 Unidades $1.200</p>
+                <p class="precioL">10 Unidades $1.900</p>
             </div>
         </a>
         <a href="../herramientas/pala.php" class="a">
@@ -96,7 +96,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <div class="imgg">
                     <img src="../img/arbsem/alcor.jpg" alt="" width="223px" height="166px">
                     </div>
-                <p class="precioL">20 Unidades $3.500</p>
+                <p class="precioL">10 Unidades $2.500</p>
             </div>
         </a>
         <a href="../herramientas/palamano.php" class="a">
@@ -105,7 +105,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <div class="imgg">
                     <img src="../img/arbsem/cippir.jpg" alt="" width="223px" height="166px">
                     </div>
-                <p class="precioL">20 Unidades $2.900</p>
+                <p class="precioL">10 Unidades $1.300</p>
             </div>
         </a>
         <a href="../herramientas/picota.php" class="a">
@@ -114,7 +114,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <div class="imgg">
                     <img src="../img/arbsem/eucalipto.jpg" alt="" width="223px" height="166px">
                     </div>
-                <p class="precioL">20 Unidades $3.600</p>
+                <p class="precioL">10 Unidades $1.200</p>
             </div>
         </a>
         <a href="../herramientas/azada.php" class="a">
@@ -123,7 +123,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/php/florvax/bootstrap/testpepitos/pepes.ph
                 <div class="imgg">
                     <img src="../img/arbsem/olmo.jpg" alt="" width="223px" height="166px">
                     </div>
-                <p class="precioL">20 Unidades $3.900</p>
+                <p class="precioL">20 Unidades $1.900</p>
             </div>
         </a>
             </div>
